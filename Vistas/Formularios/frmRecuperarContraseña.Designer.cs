@@ -29,10 +29,13 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmRecuperarContraseña));
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlLogin = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblIngesar = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnEnviarEmail = new Vistas.Clases.RedondearBoton();
@@ -43,16 +46,14 @@
             this.btnVerificar = new Vistas.Clases.RedondearBoton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tlpAyuda = new System.Windows.Forms.ToolTip(this.components);
-            this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.pnlLogin.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -107,6 +108,30 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(582, 67);
             this.panel2.TabIndex = 9;
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreo.Location = new System.Drawing.Point(307, 26);
+            this.txtCorreo.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCorreo.MaxLength = 40;
+            this.txtCorreo.Multiline = true;
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(213, 15);
+            this.txtCorreo.TabIndex = 4;
+            this.tlpAyuda.SetToolTip(this.txtCorreo, "Ingrese su correo electrónico institucional");
+            this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195352;
+            this.pictureBox1.Location = new System.Drawing.Point(255, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(306, 53);
+            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabStop = false;
             // 
             // lblIngesar
             // 
@@ -233,30 +258,6 @@
             // 
             this.tlpAyuda.ToolTipTitle = "Mensaje de ayuda";
             // 
-            // txtCorreo
-            // 
-            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtCorreo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCorreo.Location = new System.Drawing.Point(307, 26);
-            this.txtCorreo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtCorreo.MaxLength = 40;
-            this.txtCorreo.Multiline = true;
-            this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(213, 15);
-            this.txtCorreo.TabIndex = 4;
-            this.tlpAyuda.SetToolTip(this.txtCorreo, "Ingrese su correo electrónico institucional");
-            this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195352;
-            this.pictureBox1.Location = new System.Drawing.Point(255, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(306, 53);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
-            // 
             // frmRecuperarContraseña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -264,12 +265,13 @@
             this.BackgroundImage = global::Vistas.Properties.Resources.fondodos2;
             this.ClientSize = new System.Drawing.Size(932, 504);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(948, 543);
             this.MinimumSize = new System.Drawing.Size(948, 543);
             this.Name = "frmRecuperarContraseña";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmRecuperarContraseña";
+            this.Text = "Recuperar Contraseña";
             this.Load += new System.EventHandler(this.frmRecuperarContraseña_Load);
             this.panel1.ResumeLayout(false);
             this.pnlLogin.ResumeLayout(false);
@@ -277,11 +279,11 @@
             this.tableLayoutPanel2.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

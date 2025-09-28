@@ -1,6 +1,6 @@
 ﻿namespace Vistas.Formularios
 {
-    partial class frmCrearNuevaClave
+    partial class frmCambiarClave
     {
         /// <summary>
         /// Required designer variable.
@@ -28,8 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCrearNuevaClave));
-            this.gbCrearUsuario = new System.Windows.Forms.GroupBox();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCambiarClave));
             this.pnlNuevaClave = new System.Windows.Forms.Panel();
             this.txtConfirmarClave = new System.Windows.Forms.TextBox();
             this.txtCorreo = new System.Windows.Forms.TextBox();
@@ -41,27 +40,11 @@
             this.LblConfirmar = new System.Windows.Forms.Label();
             this.lblIngresaClave = new System.Windows.Forms.Label();
             this.btnNuevaClave = new Vistas.Clases.RedondearBoton();
-            this.gbCrearUsuario.SuspendLayout();
             this.pnlNuevaClave.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // gbCrearUsuario
-            // 
-            this.gbCrearUsuario.BackgroundImage = global::Vistas.Properties.Resources.fondodos1;
-            this.gbCrearUsuario.Controls.Add(this.pnlNuevaClave);
-            this.gbCrearUsuario.Controls.Add(this.btnNuevaClave);
-            this.gbCrearUsuario.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gbCrearUsuario.Font = new System.Drawing.Font("Britannic Bold", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbCrearUsuario.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.gbCrearUsuario.Location = new System.Drawing.Point(0, 0);
-            this.gbCrearUsuario.Margin = new System.Windows.Forms.Padding(30, 10, 30, 10);
-            this.gbCrearUsuario.Name = "gbCrearUsuario";
-            this.gbCrearUsuario.Size = new System.Drawing.Size(932, 504);
-            this.gbCrearUsuario.TabIndex = 6;
-            this.gbCrearUsuario.TabStop = false;
             // 
             // pnlNuevaClave
             // 
@@ -75,10 +58,10 @@
             this.pnlNuevaClave.Controls.Add(this.lblIngresaCorreo);
             this.pnlNuevaClave.Controls.Add(this.LblConfirmar);
             this.pnlNuevaClave.Controls.Add(this.lblIngresaClave);
-            this.pnlNuevaClave.Location = new System.Drawing.Point(94, 69);
+            this.pnlNuevaClave.Location = new System.Drawing.Point(101, 72);
             this.pnlNuevaClave.Name = "pnlNuevaClave";
             this.pnlNuevaClave.Size = new System.Drawing.Size(435, 368);
-            this.pnlNuevaClave.TabIndex = 14;
+            this.pnlNuevaClave.TabIndex = 15;
             // 
             // txtConfirmarClave
             // 
@@ -91,7 +74,6 @@
             this.txtConfirmarClave.PasswordChar = '*';
             this.txtConfirmarClave.Size = new System.Drawing.Size(228, 25);
             this.txtConfirmarClave.TabIndex = 18;
-            this.txtConfirmarClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmarClave_KeyPress);
             // 
             // txtCorreo
             // 
@@ -104,12 +86,11 @@
             this.txtCorreo.PasswordChar = '*';
             this.txtCorreo.Size = new System.Drawing.Size(228, 25);
             this.txtCorreo.TabIndex = 17;
-            this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
             // 
             // txtClave
             // 
             this.txtClave.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtClave.Location = new System.Drawing.Point(124, 193);
+            this.txtClave.Location = new System.Drawing.Point(124, 188);
             this.txtClave.Margin = new System.Windows.Forms.Padding(2);
             this.txtClave.MaxLength = 10;
             this.txtClave.Multiline = true;
@@ -117,7 +98,6 @@
             this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(228, 25);
             this.txtClave.TabIndex = 15;
-            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
             // 
             // pictureBox3
             // 
@@ -132,7 +112,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195419;
-            this.pictureBox2.Location = new System.Drawing.Point(79, 179);
+            this.pictureBox2.Location = new System.Drawing.Point(79, 175);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(298, 51);
@@ -168,12 +148,12 @@
             this.LblConfirmar.BackColor = System.Drawing.Color.Transparent;
             this.LblConfirmar.Font = new System.Drawing.Font("Britannic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblConfirmar.ForeColor = System.Drawing.Color.White;
-            this.LblConfirmar.Location = new System.Drawing.Point(32, 253);
+            this.LblConfirmar.Location = new System.Drawing.Point(32, 255);
             this.LblConfirmar.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblConfirmar.Name = "LblConfirmar";
-            this.LblConfirmar.Size = new System.Drawing.Size(329, 23);
+            this.LblConfirmar.Size = new System.Drawing.Size(242, 23);
             this.LblConfirmar.TabIndex = 13;
-            this.LblConfirmar.Text = "Confirma de nuevo tu contraseña :";
+            this.LblConfirmar.Text = "Confirma tu contraseña :";
             // 
             // lblIngresaClave
             // 
@@ -184,9 +164,9 @@
             this.lblIngresaClave.Location = new System.Drawing.Point(32, 141);
             this.lblIngresaClave.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblIngresaClave.Name = "lblIngresaClave";
-            this.lblIngresaClave.Size = new System.Drawing.Size(286, 23);
+            this.lblIngresaClave.Size = new System.Drawing.Size(354, 23);
             this.lblIngresaClave.TabIndex = 12;
-            this.lblIngresaClave.Text = "Ingresa tu nueva contraseña :";
+            this.lblIngresaClave.Text = "Ingresa tu contraseña personalizada:";
             // 
             // btnNuevaClave
             // 
@@ -198,29 +178,27 @@
             this.btnNuevaClave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevaClave.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevaClave.ForeColor = System.Drawing.Color.White;
-            this.btnNuevaClave.Location = new System.Drawing.Point(587, 201);
+            this.btnNuevaClave.Location = new System.Drawing.Point(581, 197);
             this.btnNuevaClave.Margin = new System.Windows.Forms.Padding(5);
             this.btnNuevaClave.Name = "btnNuevaClave";
             this.btnNuevaClave.Size = new System.Drawing.Size(277, 111);
-            this.btnNuevaClave.TabIndex = 9;
+            this.btnNuevaClave.TabIndex = 19;
             this.btnNuevaClave.Text = "Confirmar nueva contraseña";
             this.btnNuevaClave.UseVisualStyleBackColor = false;
-            this.btnNuevaClave.Click += new System.EventHandler(this.btnNuevaClave_Click);
             // 
-            // frmCrearNuevaClave
+            // frmCambiarClave
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(932, 504);
-            this.Controls.Add(this.gbCrearUsuario);
+            this.BackgroundImage = global::Vistas.Properties.Resources.fondodos;
+            this.ClientSize = new System.Drawing.Size(933, 505);
+            this.Controls.Add(this.btnNuevaClave);
+            this.Controls.Add(this.pnlNuevaClave);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximumSize = new System.Drawing.Size(948, 543);
-            this.MinimumSize = new System.Drawing.Size(948, 543);
-            this.Name = "frmCrearNuevaClave";
-            this.Text = "Crear Nueva Contraseña";
-            this.Load += new System.EventHandler(this.frmCrearNuevaClave_Load);
-            this.gbCrearUsuario.ResumeLayout(false);
+            this.MaximumSize = new System.Drawing.Size(949, 544);
+            this.MinimumSize = new System.Drawing.Size(949, 544);
+            this.Name = "frmCambiarClave";
+            this.Text = "Cambiar contraseña";
             this.pnlNuevaClave.ResumeLayout(false);
             this.pnlNuevaClave.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -232,17 +210,16 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox gbCrearUsuario;
-        private Clases.RedondearBoton btnNuevaClave;
-        private System.Windows.Forms.Label lblIngresaCorreo;
-        private System.Windows.Forms.Label LblConfirmar;
-        private System.Windows.Forms.Label lblIngresaClave;
         private System.Windows.Forms.Panel pnlNuevaClave;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.TextBox txtConfirmarClave;
+        private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.TextBox txtClave;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox txtCorreo;
-        private System.Windows.Forms.TextBox txtConfirmarClave;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblIngresaCorreo;
+        private System.Windows.Forms.Label LblConfirmar;
+        private System.Windows.Forms.Label lblIngresaClave;
+        private Clases.RedondearBoton btnNuevaClave;
     }
 }

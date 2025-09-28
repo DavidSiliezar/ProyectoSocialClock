@@ -73,6 +73,12 @@
     <Compile Include="Controles\RedondearBoton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Formularios\frmCambiarClave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmCambiarClave.Designer.cs">
+      <DependentUpon>frmCambiarClave.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmCreacionUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -153,6 +159,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\frmCambiarClave.resx">
+      <DependentUpon>frmCambiarClave.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmCreacionUsuario.resx">
       <DependentUpon>frmCreacionUsuario.cs</DependentUpon>
     </EmbeddedResource>

@@ -62,7 +62,7 @@
             this.txtUsuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUsuario.Location = new System.Drawing.Point(91, 23);
-            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtUsuario.Margin = new System.Windows.Forms.Padding(2);
             this.txtUsuario.MaxLength = 40;
             this.txtUsuario.Multiline = true;
             this.txtUsuario.Name = "txtUsuario";
@@ -76,7 +76,7 @@
             this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtClave.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClave.Location = new System.Drawing.Point(91, 19);
-            this.txtClave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtClave.Margin = new System.Windows.Forms.Padding(2);
             this.txtClave.MaxLength = 10;
             this.txtClave.Multiline = true;
             this.txtClave.Name = "txtClave";
@@ -144,7 +144,7 @@
             this.pnlLogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(56)))));
             this.pnlLogin.Controls.Add(this.tableLayoutPanel2);
             this.pnlLogin.Location = new System.Drawing.Point(275, 112);
-            this.pnlLogin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pnlLogin.Margin = new System.Windows.Forms.Padding(2);
             this.pnlLogin.Name = "pnlLogin";
             this.pnlLogin.Size = new System.Drawing.Size(380, 281);
             this.pnlLogin.TabIndex = 1;
@@ -159,7 +159,7 @@
             this.tableLayoutPanel2.Controls.Add(this.panel3, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.btnIngresar, 0, 3);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 4;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -189,7 +189,7 @@
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(2, 83);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(376, 77);
             this.panel2.TabIndex = 9;
@@ -198,7 +198,7 @@
             // 
             this.pictureBox1.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195352;
             this.pictureBox1.Location = new System.Drawing.Point(39, 11);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(334, 63);
             this.pictureBox1.TabIndex = 0;
@@ -209,7 +209,7 @@
             this.panel3.Controls.Add(this.txtClave);
             this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Location = new System.Drawing.Point(2, 164);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Margin = new System.Windows.Forms.Padding(2);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(374, 54);
             this.panel3.TabIndex = 10;
@@ -218,7 +218,7 @@
             // 
             this.pictureBox2.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195419;
             this.pictureBox2.Location = new System.Drawing.Point(39, 2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(339, 51);
             this.pictureBox2.TabIndex = 0;
@@ -250,12 +250,12 @@
             this.ClientSize = new System.Drawing.Size(932, 504);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximumSize = new System.Drawing.Size(948, 543);
             this.MinimumSize = new System.Drawing.Size(948, 543);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmLogin";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.panel1.ResumeLayout(false);
             this.pnlLogin.ResumeLayout(false);
