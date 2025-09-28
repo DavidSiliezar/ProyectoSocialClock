@@ -90,9 +90,9 @@ namespace Vistas.Formularios
         {
             char c = e.KeyChar;
 
-            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != ' ' && c != (char)Keys.Back)
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '-' && c != (char)Keys.Back)
             {
-                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y espacio", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y guion", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 e.Handled = true;
             }
         }
@@ -100,9 +100,10 @@ namespace Vistas.Formularios
         private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
         {
             char c = e.KeyChar;
-            if (!char.IsDigit(c) && c != (char)Keys.Back)
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '!' && c != '#' && c != '$' && c != '%' && c != '&' && c != '*' && c != (char)Keys.Back)
             {
-                MessageBox.Show("Solo se permiten números en la clave", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Solo se permiten letras, números y caracteres especiales (@ _ . ! # $ % & *)",
+                    "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 e.Handled = true;
             }
         }

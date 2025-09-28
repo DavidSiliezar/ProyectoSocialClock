@@ -79,8 +79,8 @@ namespace Modelos.Entidades
         {
             using (SqlConnection con = Conexion.Conectar())
             {
-                string query = "SELECT idBitacora AS [N°], registroHoras AS Horas, descripcion AS Actividad, fechaBitacora AS Fecha, idEstudiante AS Estudiante " +
-                    $"FROM BitacoraSocial where idEstudiante = '{idEstudiante}'";
+                string query = "SELECT idBitacora AS [N°], registroHoras AS Horas, descripcion AS Actividad, fechaBitacora AS Fecha, B.idEstudiante As Num, nombreEstudiante AS Estudiante " +
+                       $"from BitacoraSocial B inner join Estudiante E on E.idEstudiante = B.idEstudiante where B.idEstudiante = {idEstudiante}";
                 SqlDataAdapter da = new SqlDataAdapter(query, con);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
@@ -123,6 +123,39 @@ namespace Modelos.Entidades
                 da.Fill(dt);
                 return dt;
             }
+        }
+
+        public static int ObtenerHorasTotales(int idEstudiante)
+        {
+            int totalHoras = 0;
+
+            using (SqlConnection conexion = Conexion.Conectar())
+            {
+                string query = "SELECT ISNULL(SUM(registroHoras),0) AS TotalHoras " +
+                               "FROM BitacoraSocial " +
+                               "WHERE idEstudiante = @idEstudiante";
+
+                using (SqlCommand cmd = new SqlCommand(query, conexion))
+                {
+                    cmd.Parameters.AddWithValue("@idEstudiante", idEstudiante);
+
+                    try
+                    {
+                        object result = cmd.ExecuteScalar();
+
+                        if (result != null && result != DBNull.Value)
+                        {
+                            totalHoras = Convert.ToInt32(result);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al obtener horas totales: " + ex.Message);
+                    }
+                }
+            }
+
+            return totalHoras;
         }
 
     }

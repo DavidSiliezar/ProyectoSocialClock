@@ -1,121 +1,153 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\",
+  "WorkspaceRootPath": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\david s\\onedrive\\desktop\\socialclock_proyecto\\vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmcreacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmcreacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmcrearnuevaclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmcrearnuevaclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmresultado-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmresultado-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmproyectos-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmproyectos-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmprimerusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmprimerusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\servicioderecuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\servicioderecuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmlistaproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlistaproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frminicio-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frminicio-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmcreacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmcreacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmcreacionusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\olvidastelacontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\olvidastelacontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\nivelacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\nivelacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmprimerusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\bitacorasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmcrearnuevaclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmcrearnuevaclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmcrearnuevaclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmcrearnuevaclave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmrecuperarcontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frminicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmrecuperarcontrase\u00F1a.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmrecuperarcontrase\u00F1a.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmresultado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmlistaproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlistaproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\bitacorasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\bitacorasocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\modelos\\entidades\\soportedecontrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\soportedecontrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmsocialclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmsocialclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmsocialclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmsocialclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\soportedecontrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\soportedecontrasena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmresultado-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmresultado-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmresultado-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmresultado-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\garbr\\onedrive\\escritorio\\proyectosocialclock\\vistas\\formularios\\frmproyectos-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmproyectos-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmproyectos-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmproyectos-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmlistaproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmlistaproyectos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmprimerusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmprimerusuario.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\servicioderecuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\servicioderecuperacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frminicio-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frminicio-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\olvidastelacontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\olvidastelacontrase\u00F1a.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\modelos\\entidades\\nivelacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\nivelacademico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmsocialclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmsocialclock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmproyectos-colaborador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmproyectos-colaborador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmproyectos-colaborador.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmsocialclock-colaborador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -126,133 +158,354 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "frmPrimerUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmPrimerUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmPrimerUsuario.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmPrimerUsuario.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmPrimerUsuario.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmPrimerUsuario.cs",
               "RelativeToolTip": "Vistas\\Formularios\\frmPrimerUsuario.cs",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAjwLcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAnwM0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T02:09:16.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "frmInicio.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmInicio.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmInicio.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmInicio.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\frmInicio.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:30:38.977Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:09:23.934Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "frmLogin.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmLogin.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmLogin.cs",
               "RelativeToolTip": "Vistas\\Formularios\\frmLogin.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAWwIgAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAEwGUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:44:11.206Z"
+              "WhenOpened": "2025-09-26T01:44:11.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmCreacionUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCreacionUsuario.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmCreacionUsuario.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCreacionUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmCreacionUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:28:14.167Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmCreacionUsuario.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCreacionUsuario.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmCreacionUsuario.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCreacionUsuario.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmCreacionUsuario.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAnwJAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T03:03:54.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrimerUsuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmPrimerUsuario.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmPrimerUsuario.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmPrimerUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmPrimerUsuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:09:21.254Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "frmLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmLogin.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmLogin.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmLogin.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Vistas\\Formularios\\frmLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:44:09.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmPrimerUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmPrimerUsuario.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmPrimerUsuario.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmPrimerUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\frmPrimerUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:09:21.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmCrearNuevaClave.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmCrearNuevaClave.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmCrearNuevaClave.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmCrearNuevaClave.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Vistas\\Formularios\\frmCrearNuevaClave.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:08:09.788Z"
+              "WhenOpened": "2025-09-26T01:44:09.15Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Estudiante.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\Estudiante.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Estudiante.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\Estudiante.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Estudiante.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAqwAUAAAARAAAAAAAAAA==",
+              "Title": "frmInicio.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmInicio.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmInicio.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmInicio.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:20:14.173Z"
+              "WhenOpened": "2025-09-26T02:30:38.977Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "frmResultado.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmResultado.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmResultado.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmResultado.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmResultado.cs [Dise\u00F1o]",
+              "DocumentIndex": 7,
+              "Title": "frmRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:14:27.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmSocialClock-Colaborador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:47:45.677Z"
+              "WhenOpened": "2025-09-26T02:09:23.934Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "frmCrearNuevaClave.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCrearNuevaClave.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmCrearNuevaClave.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCrearNuevaClave.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmCrearNuevaClave.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T04:30:45.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmCrearNuevaClave.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCrearNuevaClave.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmCrearNuevaClave.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmCrearNuevaClave.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmCrearNuevaClave.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:08:09.788Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmRecuperarContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAewCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:09:19.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmInicio.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmInicio.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmInicio.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmInicio.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmInicio.cs",
+              "ViewState": "AgIAAPIBAAAAAAAAAAAywP4BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T02:57:50.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmResultado.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmResultado.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmResultado.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAYwHMBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T02:27:47.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmRecuperarContrase\u00F1a.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.Designer.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.Designer.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.Designer.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.Designer.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAvwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T03:46:37.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\Estudiante.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Estudiante.cs",
+              "ViewState": "AgIAADMBAAAAAAAAAAAgwEcBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:20:14.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmResultado.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmResultado.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmResultado.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:14:27.305Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmListaProyectos.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmListaProyectos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmListaProyectos.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmListaProyectos.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmListaProyectos.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAewDsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T02:28:54.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BitacoraSocial.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\BitacoraSocial.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\BitacoraSocial.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\BitacoraSocial.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\BitacoraSocial.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAowFIAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:20:09.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmSocialClock.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmSocialClock.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmSocialClock.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T01:53:31.098Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Conexion\\Conexion.cs",
+              "RelativeDocumentMoniker": "Modelos\\Conexion\\Conexion.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Conexion\\Conexion.cs",
+              "RelativeToolTip": "Modelos\\Conexion\\Conexion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T23:13:17.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmSocialClock-Colaborador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmSocialClock-Colaborador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T01:47:45.677Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SoporteDeContrasena.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\SoporteDeContrasena.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\SoporteDeContrasena.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\SoporteDeContrasena.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\SoporteDeContrasena.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T02:19:33.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmResultado-Colaborador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado-Colaborador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmResultado-Colaborador.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado-Colaborador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmResultado-Colaborador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T01:55:52.845Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmResultado-Colaborador.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado-Colaborador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmResultado-Colaborador.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmResultado-Colaborador.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmResultado-Colaborador.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAIAwwM4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T02:28:21.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmProyectos-Colaborador.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmProyectos-Colaborador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmProyectos-Colaborador.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmProyectos-Colaborador.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmProyectos-Colaborador.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAIwKYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T02:29:15.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmProyectos-Colaborador.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmProyectos-Colaborador.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmProyectos-Colaborador.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmProyectos-Colaborador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmProyectos-Colaborador.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T01:50:57.807Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmListaProyectos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmListaProyectos.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmListaProyectos.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmListaProyectos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Vistas\\Formularios\\frmListaProyectos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-26T01:44:08.277Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Program.cs",
               "RelativeDocumentMoniker": "Vistas\\Program.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Program.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Program.cs",
               "RelativeToolTip": "Vistas\\Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -260,23 +513,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Conexion\\Conexion.cs",
-              "RelativeDocumentMoniker": "Modelos\\Conexion\\Conexion.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Conexion\\Conexion.cs",
-              "RelativeToolTip": "Modelos\\Conexion\\Conexion.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCEAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T23:13:17.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\Usuario.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\Usuario.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\Usuario.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\Usuario.cs",
               "RelativeToolTip": "Modelos\\Entidades\\Usuario.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -284,68 +525,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "frmResultado-Colaborador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmResultado-Colaborador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmResultado-Colaborador.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmResultado-Colaborador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmResultado-Colaborador.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:55:52.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmProyectos-Colaborador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmProyectos-Colaborador.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmProyectos-Colaborador.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmProyectos-Colaborador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmProyectos-Colaborador.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:50:57.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmRecuperarContrase\u00F1a.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\frmRecuperarContrase\u00F1a.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwBAAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:09:19.116Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 29,
               "Title": "frmPrimerUsuario.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmPrimerUsuario.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmPrimerUsuario.Designer.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmPrimerUsuario.Designer.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmPrimerUsuario.Designer.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmPrimerUsuario.Designer.cs",
               "RelativeToolTip": "Vistas\\Formularios\\frmPrimerUsuario.Designer.cs",
               "ViewState": "AgIAAEkAAAAAAAAAAAAswGAAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T03:14:46.788Z"
+              "WhenOpened": "2025-09-26T03:14:46.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "frmListaProyectos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmListaProyectos.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmListaProyectos.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmListaProyectos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmListaProyectos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:44:08.277Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 30,
               "Title": "ServicioDeRecuperacion.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\ServicioDeRecuperacion.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\ServicioDeRecuperacion.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\ServicioDeRecuperacion.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\ServicioDeRecuperacion.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\ServicioDeRecuperacion.cs",
               "RelativeToolTip": "Modelos\\Entidades\\ServicioDeRecuperacion.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAUwDsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -353,33 +550,22 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "frmCreacionUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmCreacionUsuario.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmCreacionUsuario.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmCreacionUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmCreacionUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:28:14.167Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
               "Title": "frmInicio-Colaborador.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmInicio-Colaborador.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmInicio-Colaborador.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmInicio-Colaborador.cs",
               "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmInicio-Colaborador.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmInicio-Colaborador.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmInicio-Colaborador.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-26T02:28:16.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "OlvidasteLaContrase\u00F1a.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\OlvidasteLaContrase\u00F1a.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\OlvidasteLaContrase\u00F1a.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\OlvidasteLaContrase\u00F1a.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\OlvidasteLaContrase\u00F1a.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\OlvidasteLaContrase\u00F1a.cs",
               "RelativeToolTip": "Modelos\\Entidades\\OlvidasteLaContrase\u00F1a.cs",
               "ViewState": "AgIAADoAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -387,35 +573,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "SoporteDeContrasena.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\SoporteDeContrasena.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\SoporteDeContrasena.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\SoporteDeContrasena.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\SoporteDeContrasena.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:19:33.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "BitacoraSocial.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\BitacoraSocial.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\BitacoraSocial.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\BitacoraSocial.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\BitacoraSocial.cs",
-              "ViewState": "AgIAAEwAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T02:20:09.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 33,
               "Title": "NivelAcademico.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\NivelAcademico.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\NivelAcademico.cs",
               "RelativeDocumentMoniker": "Modelos\\Entidades\\NivelAcademico.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Modelos\\Entidades\\NivelAcademico.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Modelos\\Entidades\\NivelAcademico.cs",
               "RelativeToolTip": "Modelos\\Entidades\\NivelAcademico.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -423,50 +585,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "frmSocialClock.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmSocialClock.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\Responsive\\SocialClock_Proyecto\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:53:31.098Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "frmSocialClock.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmSocialClock.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock.cs",
               "RelativeToolTip": "Vistas\\Formularios\\frmSocialClock.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAlwH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T15:51:23.305Z"
+              "WhenOpened": "2025-09-23T15:51:23.305Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "frmProyectos-Colaborador.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmProyectos-Colaborador.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmProyectos-Colaborador.Designer.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmProyectos-Colaborador.Designer.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmProyectos-Colaborador.Designer.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmProyectos-Colaborador.Designer.cs",
               "RelativeToolTip": "Vistas\\Formularios\\frmProyectos-Colaborador.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:50:53.325Z"
+              "WhenOpened": "2025-09-26T01:50:53.325Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "frmSocialClock-Colaborador.cs",
-              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
+              "DocumentMoniker": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
-              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\SocialClock_Proyecto\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
+              "ToolTip": "C:\\Users\\garbr\\OneDrive\\Escritorio\\ProyectoSocialClock\\Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
               "RelativeToolTip": "Vistas\\Formularios\\frmSocialClock-Colaborador.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAWwBkAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:47:46.75Z"
+              "WhenOpened": "2025-09-26T01:47:46.75Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -105,8 +105,32 @@ namespace Vistas.Formularios
             }
         }
 
+        
+        // MÉTODO PARA ENVIAR CORREO
+        private void EnviarCorreoBienvenida(string correoDestino)
+        {
+            try
+            {
+                using (var mailService = new SoporteDeContrasena("socialclock7@gmail.com", "fvtvqapfoalythgd"))
+                {
+                    bool emailEnviado = mailService.EnviarMail(
+                        subject: "Bienvenido a Social Clock",
+                        body: $"¡Hola! {correoDestino}\n\nTu cuenta en el sistema Social Clock ha sido creada correctamente.\n\n¡Bienvenido!",
+                        recipientMail: new List<string> { correoDestino }
+                    );
+
+                    if (!emailEnviado)
+                        MessageBox.Show($"No se pudo enviar el correo de bienvenida a {correoDestino}.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error enviando correo de bienvenida: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         // BOTÓN REGISTRAR
-        private void btnRegistrar_Click(object sender, EventArgs e)
+        private void btnRegistrar_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -157,27 +181,28 @@ namespace Vistas.Formularios
             }
         }
 
-        // MÉTODO PARA ENVIAR CORREO
-        private void EnviarCorreoBienvenida(string correoDestino)
+        #region
+        private void txtCorreoRegistrar_KeyPress_1(object sender, KeyPressEventArgs e)
         {
-            try
-            {
-                using (var mailService = new SoporteDeContrasena("socialclock7@gmail.com", "fvtvqapfoalythgd"))
-                {
-                    bool emailEnviado = mailService.EnviarMail(
-                        subject: "Bienvenido a Social Clock",
-                        body: $"¡Hola! {correoDestino}\n\nTu cuenta en el sistema Social Clock ha sido creada correctamente.\n\n¡Bienvenido!",
-                        recipientMail: new List<string> { correoDestino }
-                    );
+            char c = e.KeyChar;
 
-                    if (!emailEnviado)
-                        MessageBox.Show($"No se pudo enviar el correo de bienvenida a {correoDestino}.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
-            }
-            catch (Exception ex)
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '-' && c != (char)Keys.Back)
             {
-                MessageBox.Show($"Error enviando correo de bienvenida: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y guion", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
             }
         }
+
+        private void txtClaveRegistrar_KeyPress_1(object sender, KeyPressEventArgs e)
+        {
+            char c = e.KeyChar;
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '!' && c != '#' && c != '$' && c != '%' && c != '&' && c != '*' && c != (char)Keys.Back)
+            {
+                MessageBox.Show("Solo se permiten letras, números y caracteres especiales (@ _ . ! # $ % & *)",
+                    "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+            }
+        }
+        #endregion
     }
 }

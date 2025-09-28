@@ -1,5 +1,7 @@
 ﻿using Modelos.Entidades;
 using System;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Text.RegularExpressions;
 using System.Windows.Forms;
 
@@ -14,12 +16,23 @@ namespace Vistas.Formularios
         {
             InitializeComponent();
             servicio = new ServicioDeRecuperacion(); // inicializamos solo una vez
-           
+            RedondearPanel(pnlLogin, 40);
+        }
+        private void RedondearPanel(Panel panel, int radio)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.StartFigure();
+            path.AddArc(new Rectangle(0, 0, radio, radio), 180, 90);
+            path.AddArc(new Rectangle(panel.Width - radio, 0, radio, radio), 270, 90);
+            path.AddArc(new Rectangle(panel.Width - radio, panel.Height - radio, radio, radio), 0, 90);
+            path.AddArc(new Rectangle(0, panel.Height - radio, radio, radio), 90, 90);
+            path.CloseFigure();
+            panel.Region = new Region(path);
         }
 
         private void frmRecuperarContraseña_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void lblLogin_Click(object sender, EventArgs e)
@@ -103,24 +116,28 @@ namespace Vistas.Formularios
             }
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
+        #region Validaciones
+        private void txtCorreo_KeyPress(object sender, KeyPressEventArgs e)
         {
+            char c = e.KeyChar;
 
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '-' && c != (char)Keys.Back)
+            {
+                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y guion", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+            }
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void txtToken_KeyPress(object sender, KeyPressEventArgs e)
         {
+            if (!(char.IsLetter(e.KeyChar) || char.IsNumber(e.KeyChar) || e.KeyChar == (char)Keys.Back))
+            {
+                MessageBox.Show("Solo se permiten letras y números", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+                return;
+            }
 
         }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtToken_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+        #endregion
     }
 }

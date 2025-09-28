@@ -326,7 +326,7 @@ namespace Modelos.Entidades
                 add.Fill(dataVirtual);
                 if (dataVirtual.Rows.Count > 0)
                 {
-                    MessageBox.Show("Búsqueda exitosa", "Éxito");
+                    MessageBox.Show("Búsqueda exitosa", "Éxito",MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {

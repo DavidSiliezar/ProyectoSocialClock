@@ -84,7 +84,7 @@ namespace Vistas.Formularios
                 if (user.InsertarUsuario() == true)
                 {
 
-                    MessageBox.Show("Exito", "Datos ingresados correctamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Exito", "El usuario se ha agregado correctamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     MostrarUsuario();
                 }
             }
@@ -137,11 +137,10 @@ namespace Vistas.Formularios
             {
                 txtUsuario.Text = dgvUsuarios.CurrentRow.Cells[1].Value.ToString();
                 cmbRol.Text = dgvUsuarios.CurrentRow.Cells[2].Value.ToString();
-                txtClave.Text = dgvUsuarios.CurrentRow.Cells[3].Value.ToString();
                 lblEstadoUsuario.Visible = true;
                 rbnActivo.Visible = true;
                 rbnInactivo.Visible = true;
-                if (dgvUsuarios.CurrentRow.Cells[4].Value.ToString() == "ACTIVO")
+                if (dgvUsuarios.CurrentRow.Cells[3].Value.ToString() == "ACTIVO")
                 {
                     rbnActivo.Checked = true;
                 }
@@ -153,7 +152,7 @@ namespace Vistas.Formularios
             catch (Exception ex)
             {
 
-                MessageBox.Show("Error","Intenta de nuevo!"+ex);
+                MessageBox.Show("Intenta de nuevo!"+ex, "Error");
             }
 
             txtClave.ReadOnly = true;
@@ -178,7 +177,7 @@ namespace Vistas.Formularios
                 }
                 if (dgvUsuarios.CurrentRow == null)
                 {
-                    MessageBox.Show("Asegúrese de seleccionar un registro", "Advertencia");
+                    MessageBox.Show("Asegúrese de seleccionar un registro", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
                 else
@@ -245,9 +244,9 @@ namespace Vistas.Formularios
         {
             char c = e.KeyChar;
 
-            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != ' ' && c != (char)Keys.Back)
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '-' && c != (char)Keys.Back)
             {
-                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y espacio", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y guion", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 e.Handled = true;
             }
         }

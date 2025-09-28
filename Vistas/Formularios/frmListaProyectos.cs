@@ -196,30 +196,42 @@ namespace Vistas.Formularios
         {
             if (!string.IsNullOrWhiteSpace(txtHoras.Text) && !string.IsNullOrWhiteSpace(txtActvidad.Text))
             {
-                //Creamos un objeto Bitacora
-                BitacoraSocial bi = new BitacoraSocial();
-                bi.RegistroHoras = Convert.ToInt32(txtHoras.Text);
-                bi.Descripcion = txtActvidad.Text;
-                bi.FechaBitacora = dtpFechaBitacora.Value;
-                bi.IdEstudiante = Convert.ToInt32(txtNumEstudiante.Text);
-
-                try
+                int horasTotales = BitacoraSocial.ObtenerHorasTotales(Convert.ToInt32(txtNumEstudiante.Text));
+                int horasIngresadas = Convert.ToInt32(txtHoras.Text);
+                int sumaHoras = horasTotales + horasIngresadas;
+                if (sumaHoras <= 150)
                 {
-                    bi.InsertarBitacoraSocial();
+                    //Creamos un objeto Bitacora
+                    BitacoraSocial bi = new BitacoraSocial();
+                    bi.RegistroHoras = Convert.ToInt32(txtHoras.Text);
+                    bi.Descripcion = txtActvidad.Text;
+                    bi.FechaBitacora = dtpFechaBitacora.Value;
+                    bi.IdEstudiante = Convert.ToInt32(txtNumEstudiante.Text);
 
-                    MostrarBitacora(Convert.ToInt32(txtNumEstudiante.Text));
+                    try
+                    {
+
+                        bi.InsertarBitacoraSocial();
+
+                        MostrarBitacora(Convert.ToInt32(txtNumEstudiante.Text));
+                    }
+                    catch (Exception)
+                    {
+
+                        MessageBox.Show("Error al insgresar datos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
-                catch (Exception)
+                else
                 {
-
-                    MessageBox.Show("Error al insgresar datos", "Advertencia");
+                    MessageBox.Show("No se puede registrar: La cantidad de horas sociales que ha ingresado excedería el máximo de 150 horas totales", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
+
             }
             else
             {
-                MessageBox.Show("Asegurese de llenar todos los campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("No se pudo registrar: \n Asegurese de llenar todos los campos y seleccionar un estudiante", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
-            
+
         }
 
 

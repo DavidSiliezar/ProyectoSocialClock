@@ -184,18 +184,22 @@ namespace Vistas.Formularios
                     MostrarEstudianteSegundoAño();
                     MostrarEstudianteTercerAño();
                     MostrarEstudianteRetirado();
-                    MessageBox.Show("Exelente. Datos registrados", "Inscripción exitosa");
+                    MessageBox.Show("Exelente. Los datos fueron registrados", "Inscripción exitosa", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch (Exception)
                 {
 
-                    MessageBox.Show("Error al insgresar datos", "Advertencia");
+                    MessageBox.Show("Hubo un error al insgresar los datos. Tenga en cuenta: \n" +
+                       "\n Todos los campos, excepto <NIE>, necesitan ingresarse obligatoriamente. \n" +
+                       "\n El carnet y el NIE no pueden repetirse, tal vez el estudiante ya existe", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Todos los campos, excepto <Nie>, necesitan ingresarse obligatoriamente ", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-               
+                MessageBox.Show("Hubo un error al insgresar los datos. Tenga en cuenta: \n" +
+                         "\n Todos los campos, excepto <NIE>, necesitan ingresarse obligatoriamente. \n" +
+                         "\n El carnet y el NIE no pueden repetirse, tal vez el estudiante ya existe", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
             }
             
         }
@@ -405,7 +409,7 @@ namespace Vistas.Formularios
                 }
                 else
                 {
-                    MessageBox.Show("Asegúrese de seleccionar un registro", "Advertencia");
+                    MessageBox.Show("Asegúrese de seleccionar un registro", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     return;
                 }
                 DialogResult respuesta = MessageBox.Show("¿Quieres editar este registro?\n" + registroEditar,
@@ -454,7 +458,7 @@ namespace Vistas.Formularios
                 }
                 else
                 {
-                    MessageBox.Show("Error en la búsqueda", "Advertencia");
+                    MessageBox.Show("Error en la búsqueda", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
                 }
             }
