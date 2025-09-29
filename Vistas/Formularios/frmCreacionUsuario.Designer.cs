@@ -147,7 +147,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.50746F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.49254F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 339F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 340F));
             this.tableLayoutPanel4.Controls.Add(this.panel4, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 0);
@@ -166,9 +166,9 @@
             this.panel4.Controls.Add(this.btnAgregar);
             this.panel4.Controls.Add(this.btnEditar);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(840, 3);
+            this.panel4.Location = new System.Drawing.Point(839, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(334, 156);
+            this.panel4.Size = new System.Drawing.Size(335, 156);
             this.panel4.TabIndex = 1;
             // 
             // btnEliminar
@@ -273,14 +273,14 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.37615F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 16F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(425, 156);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(424, 156);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.cmbRol);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(150, 2);
+            this.panel1.Location = new System.Drawing.Point(149, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(273, 71);
@@ -303,7 +303,7 @@
             this.panel2.Controls.Add(this.rbnInactivo);
             this.panel2.Controls.Add(this.rbnActivo);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(150, 77);
+            this.panel2.Location = new System.Drawing.Point(149, 77);
             this.panel2.Margin = new System.Windows.Forms.Padding(2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(273, 77);
@@ -356,7 +356,7 @@
             this.lblEstadoUsuario.AutoSize = true;
             this.lblEstadoUsuario.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEstadoUsuario.ForeColor = System.Drawing.Color.Black;
-            this.lblEstadoUsuario.Location = new System.Drawing.Point(15, 97);
+            this.lblEstadoUsuario.Location = new System.Drawing.Point(14, 97);
             this.lblEstadoUsuario.Name = "lblEstadoUsuario";
             this.lblEstadoUsuario.Size = new System.Drawing.Size(118, 36);
             this.lblEstadoUsuario.TabIndex = 1;
@@ -474,7 +474,7 @@
             this.lblAyuda.AutoSize = true;
             this.lblAyuda.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAyuda.ForeColor = System.Drawing.Color.White;
-            this.lblAyuda.Location = new System.Drawing.Point(1106, 10);
+            this.lblAyuda.Location = new System.Drawing.Point(8, 10);
             this.lblAyuda.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblAyuda.Name = "lblAyuda";
             this.lblAyuda.Size = new System.Drawing.Size(84, 29);
