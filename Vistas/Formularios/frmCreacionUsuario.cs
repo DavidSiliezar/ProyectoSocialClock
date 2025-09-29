@@ -297,5 +297,27 @@ namespace Vistas.Formularios
                                 "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        private void frmCreacionUsuario_Resize(object sender, EventArgs e)
+        {
+            RedondearPanel(pnlBienvenida, 40);
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void lblAyuda_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblAyuda_Click_1(object sender, EventArgs e)
+        {
+            frmManuales manuales = new frmManuales();
+            manuales.Show();
+
+        }
     }
 }

@@ -573,9 +573,7 @@ namespace Vistas.Formularios
         private void lblAyuda_Click(object sender, EventArgs e)
         {
            
-            frmManuales manuales = new frmManuales();
-            manuales.Show(); 
-
+           
            
         }
     }
