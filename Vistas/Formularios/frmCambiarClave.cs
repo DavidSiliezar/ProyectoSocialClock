@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Modelos.Entidades;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +17,106 @@ namespace Vistas.Formularios
         public frmCambiarClave()
         {
             InitializeComponent();
+            RedondearPanel(pnlNuevaClave, 40);
         }
 
+        private void RedondearPanel(Panel panel, int radio)
+        {
+            GraphicsPath path = new GraphicsPath();
+            path.StartFigure();
+            path.AddArc(new Rectangle(0, 0, radio, radio), 180, 90);
+            path.AddArc(new Rectangle(panel.Width - radio, 0, radio, radio), 270, 90);
+            path.AddArc(new Rectangle(panel.Width - radio, panel.Height - radio, radio, radio), 0, 90);
+            path.AddArc(new Rectangle(0, panel.Height - radio, radio, radio), 90, 90);
+            path.CloseFigure();
+            panel.Region = new Region(path);
+        }
+        private void btnNuevaClave_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtCorreo.Text) || string.IsNullOrEmpty(txtClave.Text) || string.IsNullOrEmpty(txtConfirmarClave.Text))
+            {
+                MessageBox.Show("Por favor, ingrese el usuario y la contraseña.", "Campos vacíos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            string correo = txtCorreo.Text;
+            string clave = txtClave.Text;
+            string claveconfirmada = txtConfirmarClave.Text;
+            if (Usuario.VerificarCorreo(correo) == true)
+            {
+                if (clave == claveconfirmada)
+                {
+                    Usuario user = new Usuario();
+                    user.NombreUsuario = correo;
+                    user.Clave = BCrypt.Net.BCrypt.HashPassword(clave);
+                    try
+                    {
+                        if (user.ActualizarClaveUsuario())
+                        {
+                            MessageBox.Show("Su contraseña ha sido actualizada con éxito, inicie sesión con ella.", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            frmLogin fe = new frmLogin();
+                            fe.Show();
+                            this.Hide();
+                        }
+                   
+                    }
+                    catch (Exception)
+                    {
+                        MessageBox.Show("Hubo un error al actualizar su contraseña", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("La contraseña es distinta: Verifique que ha escrito bien su nueva contraseña en ambos campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("Por favor, verifique que su correo sea correcto", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
+        }
+
+        #region Validaciones 
+        private void txtCorreo_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char c = e.KeyChar;
+
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '-' && c != (char)Keys.Back)
+            {
+                MessageBox.Show("Solo se permiten letras, números, @, guion bajo, punto y guion", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+            }
+        }
+
+        private void txtClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char c = e.KeyChar;
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '!' && c != '#' && c != '$' && c != '%' && c != '&' && c != '*' && c != (char)Keys.Back)
+            {
+                MessageBox.Show("Solo se permiten letras, números y caracteres especiales (@ _ . ! # $ % & *)",
+                    "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+            }
+        }
+
+        private void txtConfirmarClave_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char c = e.KeyChar;
+            if (!char.IsLetterOrDigit(c) && c != '@' && c != '_' && c != '.' && c != '!' && c != '#' && c != '$' && c != '%' && c != '&' && c != '*' && c != (char)Keys.Back)
+            {
+                MessageBox.Show("Solo se permiten letras, números y caracteres especiales (@ _ . ! # $ % & *)",
+                    "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+            }
+        }
+        #endregion
+
+        private void frmCambiarClave_Load(object sender, EventArgs e)
+        {
+            RedondearPanel(pnlNuevaClave, 40);
+        }
     }
 }

@@ -139,5 +139,12 @@ namespace Vistas.Formularios
 
         }
         #endregion
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            frmLogin fe = new frmLogin();
+            fe.Show();
+            this.Hide();
+        }
     }
 }

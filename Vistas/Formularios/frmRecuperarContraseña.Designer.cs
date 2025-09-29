@@ -46,6 +46,7 @@
             this.btnVerificar = new Vistas.Clases.RedondearBoton();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.tlpAyuda = new System.Windows.Forms.ToolTip(this.components);
+            this.btnRegresar = new FontAwesome.Sharp.IconButton();
             this.panel1.SuspendLayout();
             this.pnlLogin.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -59,6 +60,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.btnRegresar);
             this.panel1.Controls.Add(this.pnlLogin);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -258,6 +260,20 @@
             // 
             this.tlpAyuda.ToolTipTitle = "Mensaje de ayuda";
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.FlatAppearance.BorderSize = 0;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresar.IconChar = FontAwesome.Sharp.IconChar.AngleLeft;
+            this.btnRegresar.IconColor = System.Drawing.Color.White;
+            this.btnRegresar.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnRegresar.Location = new System.Drawing.Point(0, 0);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(70, 73);
+            this.btnRegresar.TabIndex = 2;
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
             // frmRecuperarContraseña
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -306,5 +322,6 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txtCorreo;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private FontAwesome.Sharp.IconButton btnRegresar;
     }
 }

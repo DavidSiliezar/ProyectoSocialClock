@@ -114,7 +114,15 @@ namespace Vistas.Formularios
         {
             if (btnRegresarEstudiantes.Visible == false)
             {
-                txtNumEstudiante.Text = dgvBitacoraEstudiantes.CurrentRow.Cells[0].Value.ToString();
+                if (dgvBitacoraEstudiantes.CurrentRow.Cells[7].Value.ToString() == "ACTIVO")
+                {
+                    txtNumEstudiante.Text = dgvBitacoraEstudiantes.CurrentRow.Cells[0].Value.ToString();
+                }
+                else
+                {
+                    txtNumEstudiante.Clear();
+                    MessageBox.Show("No se puede agrear registros de bitacora a los estudiantes inactivos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
 
             }
             else

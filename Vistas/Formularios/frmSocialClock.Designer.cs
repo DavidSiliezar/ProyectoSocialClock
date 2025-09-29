@@ -73,7 +73,7 @@
             this.panel4.Controls.Add(this.panel5);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Margin = new System.Windows.Forms.Padding(2);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(100, 701);
             this.panel4.TabIndex = 6;
@@ -84,7 +84,7 @@
             this.panel7.Controls.Add(this.btnEstadistica);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel7.Location = new System.Drawing.Point(0, 452);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Margin = new System.Windows.Forms.Padding(2);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(100, 171);
             this.panel7.TabIndex = 5;
@@ -92,7 +92,7 @@
             // panel8
             // 
             this.panel8.Location = new System.Drawing.Point(2, 176);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Margin = new System.Windows.Forms.Padding(2);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(95, 129);
             this.panel8.TabIndex = 0;
@@ -116,7 +116,7 @@
             this.panel10.Controls.Add(this.btnSalir);
             this.panel10.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel10.Location = new System.Drawing.Point(0, 613);
-            this.panel10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel10.Margin = new System.Windows.Forms.Padding(2);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(100, 88);
             this.panel10.TabIndex = 6;
@@ -141,7 +141,7 @@
             this.panel9.Controls.Add(this.btnProyecto);
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel9.Location = new System.Drawing.Point(0, 298);
-            this.panel9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel9.Margin = new System.Windows.Forms.Padding(2);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(100, 154);
             this.panel9.TabIndex = 5;
@@ -167,7 +167,7 @@
             this.panel6.Controls.Add(this.btnInicio);
             this.panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel6.Location = new System.Drawing.Point(0, 162);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Margin = new System.Windows.Forms.Padding(2);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(100, 136);
             this.panel6.TabIndex = 0;
@@ -192,7 +192,7 @@
             this.panel5.Controls.Add(this.btnAjustes);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel5.Location = new System.Drawing.Point(0, 0);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Margin = new System.Windows.Forms.Padding(2);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(100, 162);
             this.panel5.TabIndex = 2;
@@ -265,7 +265,7 @@
             this.MinimumSize = new System.Drawing.Size(999, 591);
             this.Name = "frmSocialClock";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmSocialClock";
+            this.Text = "SocialClock";
             this.Load += new System.EventHandler(this.frmInicio_Load);
             this.Resize += new System.EventHandler(this.frmSocialClock_Resize);
             this.pnlMenuPrincipal.ResumeLayout(false);

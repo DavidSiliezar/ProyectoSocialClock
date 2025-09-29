@@ -163,7 +163,7 @@
             this.MaximumSize = new System.Drawing.Size(1386, 787);
             this.MinimumSize = new System.Drawing.Size(1027, 591);
             this.Name = "frmSocialClock_Colaborador";
-            this.Text = "frmSocialClock_Colaborador";
+            this.Text = "SocialClock_Colaborador";
             this.Load += new System.EventHandler(this.frmSocialClock_Colaborador_Load);
             this.Resize += new System.EventHandler(this.frmSocialClock_Colaborador_Resize);
             this.panel3.ResumeLayout(false);

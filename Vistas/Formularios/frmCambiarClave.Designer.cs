@@ -66,6 +66,8 @@
             // txtConfirmarClave
             // 
             this.txtConfirmarClave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtConfirmarClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtConfirmarClave.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmarClave.Location = new System.Drawing.Point(124, 309);
             this.txtConfirmarClave.Margin = new System.Windows.Forms.Padding(2);
             this.txtConfirmarClave.MaxLength = 10;
@@ -74,22 +76,27 @@
             this.txtConfirmarClave.PasswordChar = '*';
             this.txtConfirmarClave.Size = new System.Drawing.Size(228, 25);
             this.txtConfirmarClave.TabIndex = 18;
+            this.txtConfirmarClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmarClave_KeyPress);
             // 
             // txtCorreo
             // 
             this.txtCorreo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCorreo.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.Location = new System.Drawing.Point(133, 79);
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(2);
-            this.txtCorreo.MaxLength = 10;
+            this.txtCorreo.MaxLength = 60;
             this.txtCorreo.Multiline = true;
             this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.PasswordChar = '*';
             this.txtCorreo.Size = new System.Drawing.Size(228, 25);
             this.txtCorreo.TabIndex = 17;
+            this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
             // 
             // txtClave
             // 
             this.txtClave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtClave.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtClave.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClave.Location = new System.Drawing.Point(124, 188);
             this.txtClave.Margin = new System.Windows.Forms.Padding(2);
             this.txtClave.MaxLength = 10;
@@ -98,6 +105,7 @@
             this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(228, 25);
             this.txtClave.TabIndex = 15;
+            this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
             // 
             // pictureBox3
             // 
@@ -185,6 +193,7 @@
             this.btnNuevaClave.TabIndex = 19;
             this.btnNuevaClave.Text = "Confirmar nueva contraseña";
             this.btnNuevaClave.UseVisualStyleBackColor = false;
+            this.btnNuevaClave.Click += new System.EventHandler(this.btnNuevaClave_Click);
             // 
             // frmCambiarClave
             // 
@@ -198,7 +207,9 @@
             this.MaximumSize = new System.Drawing.Size(949, 544);
             this.MinimumSize = new System.Drawing.Size(949, 544);
             this.Name = "frmCambiarClave";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cambiar contraseña";
+            this.Load += new System.EventHandler(this.frmCambiarClave_Load);
             this.pnlNuevaClave.ResumeLayout(false);
             this.pnlNuevaClave.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

@@ -80,11 +80,12 @@ namespace Vistas.Formularios
                     user.EstadoUsuario = true;
                 }
                 user.Id_Rol = Convert.ToInt32(cmbRol.SelectedValue);
+                user.PrimerLogin = 0;
 
                 if (user.InsertarUsuario() == true)
                 {
 
-                    MessageBox.Show("Exito", "El usuario se ha agregado correctamente", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("El usuario se ha agregado correctamente", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     MostrarUsuario();
                 }
             }
@@ -160,12 +161,11 @@ namespace Vistas.Formularios
 
         private void btnEditar_Click(object sender, EventArgs e)
         {
-            if (cmbRol.SelectedIndex != -1 && !string.IsNullOrWhiteSpace(txtUsuario.Text) && !string.IsNullOrWhiteSpace(txtClave.Text))
+            if (cmbRol.SelectedIndex != -1 && !string.IsNullOrWhiteSpace(txtUsuario.Text))
             {
                 Usuario usuario = new Usuario();
                 usuario.NombreUsuario = txtUsuario.Text;
                 usuario.Id_Rol = Convert.ToInt32(cmbRol.SelectedValue);
-                usuario.Clave = txtClave.Text;
                 
                 if (rbnActivo.Checked == true)
                 {

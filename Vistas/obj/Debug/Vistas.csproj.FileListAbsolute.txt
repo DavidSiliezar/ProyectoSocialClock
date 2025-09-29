@@ -500,3 +500,4 @@ C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Vistas\obj\Debug\Vistas.c
 C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Vistas\obj\Debug\Vistas.csproj.Up2Date
 C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Vistas\obj\Debug\Vistas.exe
 C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Vistas\obj\Debug\Vistas.pdb
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Vistas\obj\Debug\Vistas.Formularios.frmCambiarClave.resources

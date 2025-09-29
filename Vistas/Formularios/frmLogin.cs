@@ -60,29 +60,51 @@ namespace Vistas.Formularios
 
             if (usuario.VerificarLogin(nombreUsuario, clave))
             {
-                int id_Rol = Usuario.IdentificarRol(nombreUsuario);
-                if (id_Rol == 1)
+                if (Usuario.IdentificarEstado(nombreUsuario) == 1)
                 {
-                    frmSocialClock fe = new frmSocialClock();
-                    fe.Show();
-                    this.Hide();
-                    MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!");
+                    MessageBox.Show("Los usuarios inactivos no puden iniciar sesión", "¡Lo sentimos!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
                 }
-                else if (id_Rol == 2)
+
+                if (Usuario.IdentificarPrimerLogin(nombreUsuario) == 1)
                 {
-                    frmSocialClock_Colaborador fe = new frmSocialClock_Colaborador();
-                    fe.Show();
+                    int id_Rol = Usuario.IdentificarRol(nombreUsuario);
+                    if (id_Rol == 1)
+                    {
+                        frmSocialClock fe = new frmSocialClock();
+                        fe.Show();
+                        this.Hide();
+                        MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                    }
+                    else if (id_Rol == 2)
+                    {
+                        frmSocialClock_Colaborador fe = new frmSocialClock_Colaborador();
+                        fe.Show();
+                        this.Hide();
+                        MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Lo sentimos, hubo un error al encontrar su rol", "Error");
+                    }
+                }
+                else if(Usuario.IdentificarPrimerLogin(nombreUsuario) == 0)
+                {
+                    frmCambiarClave fe = new frmCambiarClave();
                     this.Hide();
-                    MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!");
+                    fe.Show();
+                   
+                    MessageBox.Show("Es su primer inicio de sesión, así que debe cambiar su contraseña temporal por una propia. " +
+                        "\n Asegurese de elegir una contraseña que recordará", "¡Bienvenido!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("Lo sentimos, hubo un error al encontrar su rol", "Error");
+                    MessageBox.Show("No se pudo identificar su inicio de sesión", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             else
             {
-                MessageBox.Show("El usuario y/o clave no coinciden", "Datos incorrectos");
+                MessageBox.Show("El usuario y/o clave no coinciden", "Datos incorrectos", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

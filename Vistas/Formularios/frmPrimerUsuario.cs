@@ -3,6 +3,8 @@ using Modelos.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Drawing;
+using System.Drawing.Drawing2D;
 using System.Linq;
 using System.Windows.Forms;
 
@@ -15,6 +17,7 @@ namespace Vistas.Formularios
         public frmPrimerUsuario()
         {
             InitializeComponent();
+            RedondearPanel(pnlPrimerUsuario, 40);
         }
 
         private void frmPrimerUsuario_Load(object sender, EventArgs e)
@@ -22,75 +25,24 @@ namespace Vistas.Formularios
             // Ocultar contraseña con asteriscos
             txtClaveRegistrar.UseSystemPasswordChar = true;
 
-            // Eventos de validación
-            txtCorreoRegistrar.KeyPress += TxtCorreoRegistrar_KeyPress;
-            txtCorreoRegistrar.TextChanged += TxtCorreoRegistrar_TextChanged;
-
-            txtClaveRegistrar.KeyPress += TxtClaveRegistrar_KeyPress;
-            txtClaveRegistrar.TextChanged += TxtClaveRegistrar_TextChanged;
-
             // Bloquear pegar
             txtCorreoRegistrar.ShortcutsEnabled = false;
             txtClaveRegistrar.ShortcutsEnabled = false;
+            RedondearPanel(pnlPrimerUsuario, 40);
         }
 
-        // VALIDACIÓN CORREO
-        private void TxtCorreoRegistrar_KeyPress(object sender, KeyPressEventArgs e)
+        private void RedondearPanel(Panel panel, int radio)
         {
-            if (!(char.IsLetterOrDigit(e.KeyChar) || e.KeyChar == '_' || e.KeyChar == '@' || e.KeyChar == '.' || char.IsControl(e.KeyChar)))
-            {
-                e.Handled = true;
-                MessageBox.Show("Solo se permiten letras, números, guion bajo (_), arroba (@) y punto (.) en el correo.", "Caracter no permitido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
+            GraphicsPath path = new GraphicsPath();
+            path.StartFigure();
+            path.AddArc(new Rectangle(0, 0, radio, radio), 180, 90);
+            path.AddArc(new Rectangle(panel.Width - radio, 0, radio, radio), 270, 90);
+            path.AddArc(new Rectangle(panel.Width - radio, panel.Height - radio, radio, radio), 0, 90);
+            path.AddArc(new Rectangle(0, panel.Height - radio, radio, radio), 90, 90);
+            path.CloseFigure();
+            panel.Region = new Region(path);
         }
 
-        private void TxtCorreoRegistrar_TextChanged(object sender, EventArgs e)
-        {
-            if (suppressTextChanged) return;
-
-            string original = txtCorreoRegistrar.Text;
-            string cleaned = new string(original.Where(ch => char.IsLetterOrDigit(ch) || ch == '_' || ch == '@' || ch == '.').ToArray());
-
-            if (cleaned != original)
-            {
-                suppressTextChanged = true;
-                int sel = txtCorreoRegistrar.SelectionStart;
-                txtCorreoRegistrar.Text = cleaned;
-                txtCorreoRegistrar.SelectionStart = Math.Min(sel, cleaned.Length);
-                suppressTextChanged = false;
-
-                MessageBox.Show("Solo se permiten letras, números, guion bajo (_), arroba (@) y punto (.) en el correo.", "Caracter no permitido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
-
-        // VALIDACIÓN CLAVE
-        private void TxtClaveRegistrar_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if (!(char.IsDigit(e.KeyChar) || char.IsControl(e.KeyChar)))
-            {
-                e.Handled = true;
-                MessageBox.Show("Solo se permiten números en la clave.", "Caracter no permitido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
-
-        private void TxtClaveRegistrar_TextChanged(object sender, EventArgs e)
-        {
-            if (suppressTextChanged) return;
-
-            string original = txtClaveRegistrar.Text;
-            string cleaned = new string(original.Where(char.IsDigit).ToArray());
-
-            if (cleaned != original)
-            {
-                suppressTextChanged = true;
-                int sel = txtClaveRegistrar.SelectionStart;
-                txtClaveRegistrar.Text = cleaned;
-                txtClaveRegistrar.SelectionStart = Math.Min(sel, cleaned.Length);
-                suppressTextChanged = false;
-
-                MessageBox.Show("Solo se permiten números en la clave.", "Caracter no permitido", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            }
-        }
 
         // VALIDAR SI EL CORREO EXISTE
         private bool CorreoExiste(string correo)
@@ -153,8 +105,9 @@ namespace Vistas.Formularios
                 {
                     NombreUsuario = correo,
                     Clave = BCrypt.Net.BCrypt.HashPassword(clave), // Hasheada por la encriptacion
-                    EstadoUsuario = true,
-                    Id_Rol = 1
+                    EstadoUsuario = false,
+                    Id_Rol = 1,
+                    PrimerLogin = 1
                 };
 
                 if (nuevo.InsertarUsuario())
@@ -181,7 +134,7 @@ namespace Vistas.Formularios
             }
         }
 
-        #region
+        #region Validaciones
         private void txtCorreoRegistrar_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             char c = e.KeyChar;

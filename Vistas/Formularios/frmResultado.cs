@@ -299,7 +299,7 @@ namespace Vistas.Formularios
         {
             if (btnRegresar.Visible == false)
             {
-                txtNumEstudiante.Text = dgvEstudianteEncontrado.CurrentRow.Cells[0].Value.ToString();
+               
                 txtCarnet.Text = dgvEstudianteEncontrado.CurrentRow.Cells[1].Value.ToString();
                 txtNombre.Text = dgvEstudianteEncontrado.CurrentRow.Cells[2].Value.ToString();
                 txtNie.Text = dgvEstudianteEncontrado.CurrentRow.Cells[6].Value.ToString();
@@ -311,8 +311,18 @@ namespace Vistas.Formularios
 
                 lblEstado.Visible = true;
                 rbActivo.Visible = true;
-                rbActivo.Checked = true;
                 rbInactivo.Visible = true;
+                if (dgvEstudianteEncontrado.CurrentRow.Cells[7].Value.ToString() == "ACTIVO")
+                {
+                    rbActivo.Checked = true;
+                    txtNumEstudiante.Text = dgvEstudianteEncontrado.CurrentRow.Cells[0].Value.ToString();
+                }
+                else
+                {
+                    txtNumEstudiante.Clear();
+                    rbInactivo.Checked = true;
+                }
+                    
             }
             else
             {

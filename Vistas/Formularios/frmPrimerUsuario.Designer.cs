@@ -33,21 +33,21 @@
             this.lblBienvenida = new System.Windows.Forms.Label();
             this.lblCorreo = new System.Windows.Forms.Label();
             this.lblClave = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.btnRegistrar = new Vistas.Clases.RedondearBoton();
+            this.pnlPrimerUsuario = new System.Windows.Forms.Panel();
             this.txtClaveRegistrar = new System.Windows.Forms.TextBox();
             this.txtCorreoRegistrar = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btnRegistrar = new Vistas.Clases.RedondearBoton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pnlPrimerUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::Vistas.Properties.Resources.fondo;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(56)))));
             this.panel1.Controls.Add(this.lblBienvenida);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -63,7 +63,6 @@
             this.lblBienvenida.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lblBienvenida.Font = new System.Drawing.Font("Century Gothic", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenida.ForeColor = System.Drawing.Color.Transparent;
-            this.lblBienvenida.Image = global::Vistas.Properties.Resources.fondo;
             this.lblBienvenida.Location = new System.Drawing.Point(233, 22);
             this.lblBienvenida.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblBienvenida.Name = "lblBienvenida";
@@ -97,20 +96,54 @@
             this.lblClave.TabIndex = 2;
             this.lblClave.Text = "Cree su contraseña :";
             // 
-            // panel2
+            // pnlPrimerUsuario
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(56)))));
-            this.panel2.Controls.Add(this.btnRegistrar);
-            this.panel2.Controls.Add(this.txtClaveRegistrar);
-            this.panel2.Controls.Add(this.txtCorreoRegistrar);
-            this.panel2.Controls.Add(this.pictureBox2);
-            this.panel2.Controls.Add(this.pictureBox1);
-            this.panel2.Controls.Add(this.lblCorreo);
-            this.panel2.Controls.Add(this.lblClave);
-            this.panel2.Location = new System.Drawing.Point(268, 136);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(415, 316);
-            this.panel2.TabIndex = 6;
+            this.pnlPrimerUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(56)))));
+            this.pnlPrimerUsuario.Controls.Add(this.btnRegistrar);
+            this.pnlPrimerUsuario.Controls.Add(this.txtClaveRegistrar);
+            this.pnlPrimerUsuario.Controls.Add(this.txtCorreoRegistrar);
+            this.pnlPrimerUsuario.Controls.Add(this.pictureBox2);
+            this.pnlPrimerUsuario.Controls.Add(this.pictureBox1);
+            this.pnlPrimerUsuario.Controls.Add(this.lblCorreo);
+            this.pnlPrimerUsuario.Controls.Add(this.lblClave);
+            this.pnlPrimerUsuario.Location = new System.Drawing.Point(268, 136);
+            this.pnlPrimerUsuario.Name = "pnlPrimerUsuario";
+            this.pnlPrimerUsuario.Size = new System.Drawing.Size(415, 316);
+            this.pnlPrimerUsuario.TabIndex = 6;
+            // 
+            // txtClaveRegistrar
+            // 
+            this.txtClaveRegistrar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtClaveRegistrar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtClaveRegistrar.Location = new System.Drawing.Point(123, 205);
+            this.txtClaveRegistrar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtClaveRegistrar.Multiline = true;
+            this.txtClaveRegistrar.Name = "txtClaveRegistrar";
+            this.txtClaveRegistrar.Size = new System.Drawing.Size(211, 20);
+            this.txtClaveRegistrar.TabIndex = 9;
+            this.txtClaveRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClaveRegistrar_KeyPress_1);
+            // 
+            // txtCorreoRegistrar
+            // 
+            this.txtCorreoRegistrar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtCorreoRegistrar.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCorreoRegistrar.Location = new System.Drawing.Point(123, 77);
+            this.txtCorreoRegistrar.Margin = new System.Windows.Forms.Padding(2);
+            this.txtCorreoRegistrar.Multiline = true;
+            this.txtCorreoRegistrar.Name = "txtCorreoRegistrar";
+            this.txtCorreoRegistrar.Size = new System.Drawing.Size(211, 20);
+            this.txtCorreoRegistrar.TabIndex = 8;
+            this.txtCorreoRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreoRegistrar_KeyPress_1);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195419;
+            this.pictureBox2.Location = new System.Drawing.Point(62, 189);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(339, 51);
+            this.pictureBox2.TabIndex = 7;
+            this.pictureBox2.TabStop = false;
             // 
             // btnRegistrar
             // 
@@ -131,34 +164,6 @@
             this.btnRegistrar.UseVisualStyleBackColor = false;
             this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click_1);
             // 
-            // txtClaveRegistrar
-            // 
-            this.txtClaveRegistrar.Location = new System.Drawing.Point(123, 205);
-            this.txtClaveRegistrar.Margin = new System.Windows.Forms.Padding(2);
-            this.txtClaveRegistrar.Name = "txtClaveRegistrar";
-            this.txtClaveRegistrar.Size = new System.Drawing.Size(211, 20);
-            this.txtClaveRegistrar.TabIndex = 9;
-            this.txtClaveRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClaveRegistrar_KeyPress_1);
-            // 
-            // txtCorreoRegistrar
-            // 
-            this.txtCorreoRegistrar.Location = new System.Drawing.Point(123, 76);
-            this.txtCorreoRegistrar.Margin = new System.Windows.Forms.Padding(2);
-            this.txtCorreoRegistrar.Name = "txtCorreoRegistrar";
-            this.txtCorreoRegistrar.Size = new System.Drawing.Size(211, 20);
-            this.txtCorreoRegistrar.TabIndex = 8;
-            this.txtCorreoRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreoRegistrar_KeyPress_1);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195419;
-            this.pictureBox2.Location = new System.Drawing.Point(62, 189);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(339, 51);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Vistas.Properties.Resources.Captura_de_pantalla_2025_07_21_195352;
@@ -175,7 +180,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Vistas.Properties.Resources.fondodos;
             this.ClientSize = new System.Drawing.Size(932, 504);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlPrimerUsuario);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -186,8 +191,8 @@
             this.Load += new System.EventHandler(this.frmPrimerUsuario_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pnlPrimerUsuario.ResumeLayout(false);
+            this.pnlPrimerUsuario.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -200,11 +205,11 @@
         private System.Windows.Forms.Label lblBienvenida;
         private System.Windows.Forms.Label lblCorreo;
         private System.Windows.Forms.Label lblClave;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlPrimerUsuario;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox txtCorreoRegistrar;
         private System.Windows.Forms.TextBox txtClaveRegistrar;
         private Clases.RedondearBoton btnRegistrar;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -58,6 +58,7 @@ nombreUsuario varchar (40) unique not null,
 clave varchar (100) unique not null,
 estadoUsuario bit default 0 not null,
 id_Rol int not null,
+primerLogin bit not null,
 constraint fkRol foreign key (id_Rol)
 references Rol(idRol) on delete cascade,
 );
@@ -388,57 +389,6 @@ insert into Esp_Niv_Sec values
 (8,3,7),
 (8,3,8),
 (8,3,9);
-
-
-insert into Usuario values
-('ana_ordoñez@ricaldone.edu.sv',544854,0,1),
-('emerson_gonzales@ricaldone.edu.sv',277423,0,2);
-
-insert into Usuario values 
-('Eliseo_Crisostomo',654697,0,2),
-('Dina_Alfaro',674459,0,2),
-('Iris_Chavez',255485,0,2),
-('Roxana_Rodríguez',467145,0,2),
-('Cristian_Faguada',654657,0,2),
-('Jenni_Carpio',485487,0,2),
-('Josue_Guinea',24586,0,2),
-('Ricardo_Paz',658945,0,2),
-('Rodrigo_Duenas',744464,0,2),
-('Eduardo Barrera', 648547,0,2),
-('Karina_Hernandez',625148,0, 1),
-('Veronica_Sanchez',8456321,0,2),
-('Yolanda_Canales',214585,0,2);
-
-insert into Evento values 
-('Día de la madre', 'Los estudiantes de cultural realizarán la decoración', '2025/5/5','2025/5/1 10:30:00', 1),
-('Retiro de padres', 'Los estudiantes de protocolo ordenaran las sillas', '2025/7/19','2025/7/10 11:30:00', 2);
-
-insert into Estudiante values
-('Katherine Andrea Ruiz Bonilla','20250409','665464',0,1,2),
-('Abraham Isaac Rodríguez Velasquez','20230129','1651653',0,2,1),
-('Noe David Saravia Siliezar',20250065,'549875',0,9,1),
-('Rodrigo Alejandro Tisnado corpeno',20250488,'',0,11,1);
-
-insert into Estudiante values
-('Ariela Melissa Barahona Carranza',20230449,'448559',0,12,1),
-('Estefany Gabriela Garcia Mina', 20220212,'654855',0,14,2),
-('Cesar Eduardo Orozco Rivas',20220056,'154258',0,3,2),
-('Mateo Amilcar Gonzalez Cardoza',20240574,'',0,9,1),
-('Ever Dasahev Henriquez Abarca',20250247,'543226',0,5,1),
-('Gabriela Michelle Mayen Gonzales',20220423,'',0,7,1),
-('Camila Celeste Fabian Echegoyen',20230746,'',0,15,1),
-('Julio Wilfredo Flores Cuevas',20250155,'547856',0,11,2),
-('Rudy Enrique Pineda Azucar', 20220181,'',0,6,2),
-('Juan Pablo Contreras Chavez',20250248,'654867',0,12,1),
-('Ryan Alexander Baxter Segovia',20230485,'',0,13,1);
-insert into Estudiante values
-('Ariela Melissa Barahona Carranza',20237449,'448559',0,12,1);
-
-insert into BitacoraSocial values 
-(50, 'Creación de stand cultural', '2025/8/26', 1),	
-(40, 'Participación en obra de teatro','2025/4/26', 2);
-
-delete Estudiante where idEstudiante=21
 
 --Primer Inner Join--
 

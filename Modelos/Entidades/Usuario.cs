@@ -17,12 +17,15 @@ namespace Modelos.Entidades
         private string clave;
         private bool estadoUsuario;
         private int id_Rol;
+        private int primerLogin;
 
         public int IdUsuario { get => idUsuario; set => idUsuario = value; }
         public string NombreUsuario { get => nombreUsuario; set => nombreUsuario = value; }
         public string Clave { get => clave; set => clave = value; }
         public bool EstadoUsuario { get => estadoUsuario; set => estadoUsuario = value; }
         public int Id_Rol { get => id_Rol; set => id_Rol = value; }
+        public int PrimerLogin { get => primerLogin; set => primerLogin = value; }
+
 
         public Usuario() { }
 
@@ -90,13 +93,13 @@ namespace Modelos.Entidades
         public bool InsertarUsuario()
         {
             SqlConnection con = Conexion.Conectar();
-            string comando = "insert into Usuario(nombreUsuario, clave, estadoUsuario, id_Rol)" + "values (@nombreUsuario, @clave, @estadoUsuario, @id_Rol);";
+            string comando = "insert into Usuario(nombreUsuario, clave, estadoUsuario, id_Rol, primerLogin)" + "values (@nombreUsuario, @clave, @estadoUsuario, @id_Rol, @primerLogin);";
             SqlCommand cmd = new SqlCommand(comando, con);
             cmd.Parameters.AddWithValue("@nombreUsuario", nombreUsuario);
             cmd.Parameters.AddWithValue("@clave", clave);
             cmd.Parameters.AddWithValue("@estadoUsuario", estadoUsuario);
             cmd.Parameters.AddWithValue("@id_Rol", id_Rol);
-
+            cmd.Parameters.AddWithValue("@primerLogin", primerLogin);
 
             if (cmd.ExecuteNonQuery() > 0)
             {
@@ -129,10 +132,9 @@ namespace Modelos.Entidades
             try
             {
                 SqlConnection conexion = Conexion.Conectar();
-                string consultaUpdate = "Update Usuario set nombreUsuario = @nombre, clave = @clave, estadoUsuario = @estadoUsuario, id_Rol = @id_Rol where idUsuario = @idUsuario";
+                string consultaUpdate = "Update Usuario set nombreUsuario = @nombre, estadoUsuario = @estadoUsuario, id_Rol = @id_Rol where idUsuario = @idUsuario";
                 SqlCommand actualizar = new SqlCommand(consultaUpdate, conexion);
                 actualizar.Parameters.AddWithValue("@nombre", nombreUsuario);
-                actualizar.Parameters.AddWithValue("@clave", clave);
                 actualizar.Parameters.AddWithValue("@estadoUsuario", estadoUsuario);
                 actualizar.Parameters.AddWithValue("@id_Rol", id_Rol);
                 actualizar.Parameters.AddWithValue("@idUsuario", IdUsuario);
@@ -168,7 +170,7 @@ namespace Modelos.Entidades
             try
             {
                 SqlConnection conexion = Conexion.Conectar();
-                string consultaUpdate = "Update Usuario set clave = @clave where nombreUsuario = @nombre";
+                string consultaUpdate = "Update Usuario set clave = @clave, primerLogin = 1 where nombreUsuario = @nombre";
                 SqlCommand actualizar = new SqlCommand(consultaUpdate, conexion);
                 actualizar.Parameters.AddWithValue("@nombre", nombreUsuario);
                 actualizar.Parameters.AddWithValue("@clave", clave);
@@ -181,6 +183,72 @@ namespace Modelos.Entidades
                 MessageBox.Show("Error al actualizar los datos" + ex);
                 return false;
             }
+        }
+
+        public static int IdentificarPrimerLogin(string usuario)
+        {
+            try
+            {
+                int primerLogin;
+                SqlConnection con = Conexion.Conectar();
+                string query = "Select primerLogin from Usuario Where nombreUsuario = @Usuario";
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Usuario", usuario);
+                primerLogin = Convert.ToInt32(cmd.ExecuteScalar());
+                return primerLogin;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Hubo un error al identificar el inicio de sesión"+ex, "Error");
+                return -1;
+            }
+        }
+
+        public static bool VerificarCorreo(string nombreusuario)
+        {
+            try
+            {
+                SqlConnection con = Conexion.Conectar();
+                string query = "Select 1 from Usuario Where nombreUsuario = @Usuario";
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Usuario", nombreusuario);
+
+                if (cmd.ExecuteScalar() == null)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+
+        }
+
+        public static int IdentificarEstado(string nombreusuario)
+        {
+            try
+            {
+                SqlConnection con = Conexion.Conectar();
+                string query = "Select estadoUsuario from Usuario Where nombreUsuario = @Usuario";
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Usuario", nombreusuario);
+
+                int estado = Convert.ToInt32(cmd.ExecuteScalar());
+                return estado;
+            }
+            catch (Exception)
+            {
+                return -1;
+            }
+
         }
     }
 

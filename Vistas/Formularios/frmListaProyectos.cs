@@ -304,7 +304,15 @@ namespace Vistas.Formularios
         {
             if (btnRegresarEstudiantes.Visible == false)
             {
-                txtNumEstudiante.Text = dgvBitacoraEstudiantes.CurrentRow.Cells[0].Value.ToString();
+                if (dgvBitacoraEstudiantes.CurrentRow.Cells[7].Value.ToString() == "ACTIVO")
+                {
+                    txtNumEstudiante.Text = dgvBitacoraEstudiantes.CurrentRow.Cells[0].Value.ToString();
+                }
+                else
+                {
+                    txtNumEstudiante.Clear();
+                    MessageBox.Show("No se puede agrear registros de bitacora a los estudiantes inactivos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
                 
             }
             else
@@ -471,9 +479,9 @@ namespace Vistas.Formularios
 
         private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back) && (e.KeyChar != (char)Keys.Space))
+            if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
-                MessageBox.Show("Solo permite letras", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Solo permite números", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 e.Handled = true;
                 return;
             }
