@@ -57,6 +57,7 @@
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -91,6 +92,18 @@
     <Compile Include="Formularios\frmCrearNuevaClave.Designer.cs">
       <DependentUpon>frmCrearNuevaClave.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\frmEstadisticas - Copy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmEstadisticas - Copy.Designer.cs">
+      <DependentUpon>frmEstadisticas - Copy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmEvento.Designer.cs">
+      <DependentUpon>frmEvento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\frmInicio-Colaborador.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -108,6 +121,12 @@
     </Compile>
     <Compile Include="Formularios\frmListaProyectos.Designer.cs">
       <DependentUpon>frmListaProyectos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmManuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmManuales.Designer.cs">
+      <DependentUpon>frmManuales.cs</DependentUpon>
     </Compile>
     <Compile Include="Formularios\frmPrimerUsuario.cs">
       <SubType>Form</SubType>
@@ -157,6 +176,18 @@
     <Compile Include="Formularios\frmLogin.Designer.cs">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\UserControlBlank.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formularios\UserControlBlank.Designer.cs">
+      <DependentUpon>UserControlBlank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\UserControlDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Formularios\UserControlDays.Designer.cs">
+      <DependentUpon>UserControlDays.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Formularios\frmCambiarClave.resx">
@@ -168,6 +199,12 @@
     <EmbeddedResource Include="Formularios\frmCrearNuevaClave.resx">
       <DependentUpon>frmCrearNuevaClave.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmEstadisticas - Copy.resx">
+      <DependentUpon>frmEstadisticas - Copy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmEvento.resx">
+      <DependentUpon>frmEvento.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmInicio-Colaborador.resx">
       <DependentUpon>frmInicio-Colaborador.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +213,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmListaProyectos.resx">
       <DependentUpon>frmListaProyectos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmManuales.resx">
+      <DependentUpon>frmManuales.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\frmPrimerUsuario.resx">
       <DependentUpon>frmPrimerUsuario.cs</DependentUpon>
@@ -201,6 +241,12 @@
     <EmbeddedResource Include="Formularios\frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\UserControlBlank.resx">
+      <DependentUpon>UserControlBlank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\UserControlDays.resx">
+      <DependentUpon>UserControlDays.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -211,6 +257,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="Manuales\Manual_Usuario.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Manuales\Manual_Tecnico.pdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -321,8 +373,6 @@
   <ItemGroup>
     <None Include="Resources\eliminar.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Formularios\Manuales\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

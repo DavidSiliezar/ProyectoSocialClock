@@ -65,6 +65,7 @@
     <Compile Include="Conexion\Conexion.cs" />
     <Compile Include="Entidades\BitacoraSocial.cs" />
     <Compile Include="Entidades\Especialidad.cs" />
+    <Compile Include="Entidades\Estadisticas.cs" />
     <Compile Include="Entidades\Estudiante.cs" />
     <Compile Include="Entidades\NivelAcademico.cs" />
     <Compile Include="Entidades\OlvidasteLaContraseña.cs" />

@@ -126,5 +126,10 @@ namespace Vistas.Formularios
         {
 
         }
+
+        private void btnEstadistica_Click(object sender, EventArgs e)
+        {
+            abrirForm(new frmEstadisticas());
+        }
     }
 }

@@ -4,8 +4,10 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -263,5 +265,37 @@ namespace Vistas.Formularios
         }
         #endregion
 
+        private void btnManuales_Click(object sender, EventArgs e)
+        {
+            DialogResult opcion = MessageBox.Show(
+       "¿Qué manual quieres abrir?\n\nSí = Manual Técnico\nNo = Manual de Usuario",
+       "Abrir Manual",
+       MessageBoxButtons.YesNoCancel,
+       MessageBoxIcon.Question);
+
+            if (opcion == DialogResult.Yes)
+            {
+                AbrirManual("Manual_Tecnico.pdf");
+            }
+            else if (opcion == DialogResult.No)
+            {
+                AbrirManual("Manual_Usuario.pdf");
+            }
+        }
+
+        private void AbrirManual(string nombreArchivo)
+        {
+            string ruta = Path.Combine(Application.StartupPath, "Manuales", nombreArchivo);
+
+            if (File.Exists(ruta))
+            {
+                Process.Start(ruta); // abre el PDF con el lector predeterminado
+            }
+            else
+            {
+                MessageBox.Show($"No se encontró el archivo {nombreArchivo} en la carpeta Manuales.",
+                                "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
     }
 }

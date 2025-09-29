@@ -18,6 +18,8 @@ namespace Vistas.Formularios
         {
             InitializeComponent();
             RedondearPanel(pnlNuevaClave, 40);
+            txtCorreo.MaxLength = 100;
+
         }
 
         private void RedondearPanel(Panel panel, int radio)
