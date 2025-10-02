@@ -39,11 +39,7 @@ namespace Vistas.Formularios
 
         private void frmLogin_Load(object sender, EventArgs e)
         {
-            if (HayUsuariosRegistrados())
-                btnPrimerUsuario.Visible = false;
-            else
-                btnPrimerUsuario.Visible = true;
-        }
+           }
 
         private void btnIngresar_Click_1(object sender, EventArgs e)
         {
@@ -169,32 +165,13 @@ namespace Vistas.Formularios
             }
         }
 
-        private bool HayUsuariosRegistrados()
-        {
-            bool existenUsuarios = false;
-            try
-            {
-                using (SqlConnection conn = Conexion.Conectar())
-                {
-                    if (conn != null)
-                    {
-                        string query = "SELECT COUNT(*) FROM Usuario";
-                        SqlCommand cmd = new SqlCommand(query, conn);
-                        int count = (int)cmd.ExecuteScalar();
-                        existenUsuarios = count > 0;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al verificar usuarios: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            return existenUsuarios;
-        }
+       
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
+
+        
     }
 }

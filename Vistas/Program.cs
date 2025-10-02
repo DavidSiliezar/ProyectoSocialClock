@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Modelos.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -18,8 +19,15 @@ namespace Vistas
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCreacionUsuario());
-           
+            if (Usuario.HayUsuariosRegistrados())
+            {
+                Application.Run(new frmLogin());
+            }
+            else
+            {
+                Application.Run(new frmPrimerUsuario());
+            }
+            
         }
     }
 }

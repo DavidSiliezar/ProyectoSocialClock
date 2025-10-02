@@ -12,23 +12,33 @@ namespace Vistas.Formularios
 {
     public partial class frmPrimerUsuario : Form
     {
-        private bool suppressTextChanged = false;
 
         public frmPrimerUsuario()
         {
-            InitializeComponent();
-            RedondearPanel(pnlPrimerUsuario, 40);
+            
+            
+                InitializeComponent();
+                RedondearPanel(pnlPrimerUsuario, 40);
+
+            
+                
+            
         }
+        
+      
 
         private void frmPrimerUsuario_Load(object sender, EventArgs e)
         {
-            // Ocultar contraseña con asteriscos
-            txtClaveRegistrar.UseSystemPasswordChar = true;
+            
+                // Ocultar contraseña con asteriscos
+                txtClaveRegistrar.UseSystemPasswordChar = true;
 
-            // Bloquear pegar
-            txtCorreoRegistrar.ShortcutsEnabled = false;
-            txtClaveRegistrar.ShortcutsEnabled = false;
-            RedondearPanel(pnlPrimerUsuario, 40);
+                // Bloquear pegar
+                txtCorreoRegistrar.ShortcutsEnabled = false;
+                txtClaveRegistrar.ShortcutsEnabled = false;
+                RedondearPanel(pnlPrimerUsuario, 40);
+            
+
         }
 
         private void RedondearPanel(Panel panel, int radio)

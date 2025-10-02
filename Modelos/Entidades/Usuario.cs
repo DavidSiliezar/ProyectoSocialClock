@@ -6,6 +6,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Forms;
+using MessageBox = System.Windows.Forms.MessageBox;
 
 namespace Modelos.Entidades
 {
@@ -230,6 +232,31 @@ namespace Modelos.Entidades
             }
 
         }
+
+        public static bool HayUsuariosRegistrados()
+        {
+            bool existenUsuarios = false;
+            try
+            {
+                using (SqlConnection conn = Conexion.Conectar())
+                {
+                    if (conn != null)
+                    {
+                        string query = "SELECT COUNT(*) FROM Usuario";
+                        SqlCommand cmd = new SqlCommand(query, conn);
+                        int count = (int)cmd.ExecuteScalar();
+                        existenUsuarios = count > 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al verificar usuarios: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            return existenUsuarios;
+        }
+
+
 
         public static int IdentificarEstado(string nombreusuario)
         {

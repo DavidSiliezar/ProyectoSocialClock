@@ -18,6 +18,7 @@ namespace Vistas.Formularios
         public frmManuales()
         {
             InitializeComponent();
+           
         }
 
         private void frmManuales_Load(object sender, EventArgs e)
