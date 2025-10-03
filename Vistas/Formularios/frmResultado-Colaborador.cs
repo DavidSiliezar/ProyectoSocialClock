@@ -133,6 +133,7 @@ namespace Vistas.Formularios
 
         private void btnLimpiarBitacora_Click(object sender, EventArgs e)
         {
+            txtEstudiante.Clear();
             txtNumEstudiante.Text = "";
             txtHoras.Text = "";
             txtActvidad.Text = "";
@@ -267,46 +268,58 @@ namespace Vistas.Formularios
         {
             if (!string.IsNullOrWhiteSpace(txtHoras.Text) && !string.IsNullOrWhiteSpace(txtActvidad.Text))
             {
-                BitacoraSocial bi = new BitacoraSocial();
-                bi.RegistroHoras = Convert.ToInt32(txtHoras.Text);
-                bi.Descripcion = txtActvidad.Text;
-                bi.FechaBitacora = dtpFechaBitacora.Value;
-                bi.IdEstudiante = Convert.ToInt32(txtNumEstudiante.Text);
-
-                if (dgvEstudianteEncontrado.CurrentRow == null)
+                int horasTotales = BitacoraSocial.ObtenerHorasTotales(Convert.ToInt32(txtNumEstudiante.Text));
+                int horasIngresadas = Convert.ToInt32(txtHoras.Text);
+                int sumaHoras = horasTotales + horasIngresadas;
+                if (sumaHoras <= 150)
                 {
-                    MessageBox.Show("Asegúrese de seleccionar un registro", "Advertencia");
-                    return;
-                }
-                else
-                {
-                    bi.IdBitacora = int.Parse(dgvEstudianteEncontrado.CurrentRow.Cells[0].Value.ToString());
-                }
 
-                string registroEditar = dgvEstudianteEncontrado.CurrentRow.Cells[2].Value?.ToString();
-                DialogResult respuesta = MessageBox.Show("¿Quieres editar este registro?\n" + registroEditar,
-                                                          "Editar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    BitacoraSocial bi = new BitacoraSocial();
+                    bi.RegistroHoras = Convert.ToInt32(txtHoras.Text);
+                    bi.Descripcion = txtActvidad.Text;
+                    bi.FechaBitacora = dtpFechaBitacora.Value;
+                    bi.IdEstudiante = Convert.ToInt32(txtNumEstudiante.Text);
 
-                if (respuesta == DialogResult.Yes)
-                {
-                    if (bi.ActualizarBitacora() == true)
+                    if (dgvEstudianteEncontrado.CurrentRow == null)
                     {
-                        MostrarBitacora(Convert.ToInt32(txtNumEstudiante.Text));
+                        MessageBox.Show("Asegúrese de seleccionar un registro", "Advertencia");
+                        return;
                     }
                     else
                     {
-                        MessageBox.Show("No se pudo editar", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        bi.IdBitacora = int.Parse(dgvEstudianteEncontrado.CurrentRow.Cells[0].Value.ToString());
+                    }
+
+                    string registroEditar = dgvEstudianteEncontrado.CurrentRow.Cells[2].Value?.ToString();
+                    DialogResult respuesta = MessageBox.Show("¿Quieres editar este registro?\n" + registroEditar,
+                                                              "Editar registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                    if (respuesta == DialogResult.Yes)
+                    {
+                        if (bi.ActualizarBitacora() == true)
+                        {
+                            MostrarBitacora(Convert.ToInt32(txtNumEstudiante.Text));
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se pudo editar, hubo un error", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
+                    }
+                    else
+                    {
+                        return;
                     }
                 }
                 else
                 {
-                    return;
+                    MessageBox.Show("No se puede editar: La cantidad de horas sociales que ha ingresado excedería el máximo de 150 horas totales", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
             else
             {
-                MessageBox.Show("Asegurese de llenar todos los campos", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("No se pudo registrar: \n Asegurese de llenar todos los campos y seleccionar un estudiante", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
 
         private void btnEliminarBitacora_Click(object sender, EventArgs e)
@@ -350,9 +363,12 @@ namespace Vistas.Formularios
                 if (dgvEstudianteEncontrado.CurrentRow.Cells[7].Value.ToString() == "ACTIVO")
                 {
                     txtNumEstudiante.Text = dgvEstudianteEncontrado.CurrentRow.Cells[0].Value.ToString();
+                    txtEstudiante.Text = dgvEstudianteEncontrado.CurrentRow.Cells[1].Value.ToString();
+
                 }
                 else
                 {
+                    txtEstudiante.Clear();
                     txtNumEstudiante.Clear();
                 }
 
@@ -371,7 +387,7 @@ namespace Vistas.Formularios
                 txtNumEstudiante.Text = dgvEstudianteEncontrado.CurrentRow.Cells[4].Value.ToString();
                 txtActvidad.Text = dgvEstudianteEncontrado.CurrentRow.Cells[2].Value.ToString();
                 txtHoras.Text = dgvEstudianteEncontrado.CurrentRow.Cells[1].Value.ToString();
-
+                txtEstudiante.Text = dgvEstudianteEncontrado.CurrentRow.Cells[5].Value.ToString();
             }
         }
         #endregion

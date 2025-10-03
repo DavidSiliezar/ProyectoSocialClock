@@ -15,11 +15,11 @@ namespace Vistas.Formularios
 {
     public partial class frmSocialClock : Form
     {
-
-        public frmSocialClock()
+        private int id_Usuario;
+        public frmSocialClock(int idUsuario)
         {
             InitializeComponent();
-
+            id_Usuario = idUsuario;
             
         }
 
@@ -119,7 +119,7 @@ namespace Vistas.Formularios
 
         private void btnAjustes_Click(object sender, EventArgs e)
         {
-            abrirForm(new frmCreacionUsuario());
+            abrirForm(new frmCreacionUsuario(id_Usuario));
         }
 
         private void pnlContenido_Paint(object sender, PaintEventArgs e)

@@ -17,7 +17,8 @@ namespace Vistas.Formularios
 {
     public partial class frmCreacionUsuario : Form
     {
-        public frmCreacionUsuario()
+        private int id_Usuario;
+        public frmCreacionUsuario(int idUsuario)
         {
             InitializeComponent();
             MostrarUsuario();
@@ -28,6 +29,8 @@ namespace Vistas.Formularios
             rbnActivo.Visible = false;
             rbnActivo.Checked = true;
             rbnInactivo.Visible = false;
+
+            id_Usuario = idUsuario;
         }
         private void RedondearPanel(Panel panel, int radio)
         {
@@ -114,24 +117,36 @@ namespace Vistas.Formularios
 
         private void btnEliminar_Click(object sender, EventArgs e)
         {
-            Usuario usuario = new Usuario();
-            int id = int.Parse(dgvUsuarios.CurrentRow.Cells[0].Value.ToString());
-            string registroEliminar = dgvUsuarios.CurrentRow.Cells[1].Value.ToString();
-            DialogResult respuesta = MessageBox.Show("¿Quieres eliminar este registro?\n"
-                + registroEliminar, "Eliminando un registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (respuesta == DialogResult.Yes)
+            if (dgvUsuarios.CurrentRow != null)
             {
-                if (usuario.EliminarUsuario(id) == true)
+                if (Convert.ToInt32(dgvUsuarios.CurrentRow.Cells[0].Value.ToString()) != id_Usuario)
                 {
-                    MessageBox.Show("Registro Eliminado\n" + registroEliminar, "Eliminado",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    MostrarUsuario();
+                    Usuario usuario = new Usuario();
+                    int id = int.Parse(dgvUsuarios.CurrentRow.Cells[0].Value.ToString());
+                    string registroEliminar = dgvUsuarios.CurrentRow.Cells[1].Value.ToString();
+                    DialogResult respuesta = MessageBox.Show("¿Quieres eliminar este registro?\n"
+                        + registroEliminar, "Eliminando un registro", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                    if (respuesta == DialogResult.Yes)
+                    {
+                        if (usuario.EliminarUsuario(id) == true)
+                        {
+                            MessageBox.Show("Registro Eliminado\n" + registroEliminar, "Eliminado",
+                                MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MostrarUsuario();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Registro no eliminado", "No seleccionado", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
+                else
+                {
+                    MessageBox.Show("Lo sentimos, no se puede eliminar a si mismo", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                
             }
-            else
-            {
-                MessageBox.Show("Registro no eliminado", "No seleccionado", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
         }
 
         private void dgvUsuarios_DoubleClick(object sender, EventArgs e)

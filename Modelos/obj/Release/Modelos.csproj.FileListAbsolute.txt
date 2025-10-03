@@ -17,3 +17,22 @@ C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Modelos\obj\Release\Modelo
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.Up2Date
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Modelos\obj\Release\Modelos.dll
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Modelos\obj\Release\Modelos.pdb
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\Modelos.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\Modelos.pdb
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\BCrypt.Net-Next.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Buffers.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Data.SqlClient.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Memory.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Numerics.Vectors.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\BCrypt.Net-Next.xml
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Buffers.xml
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Data.SqlClient.xml
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Memory.xml
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Numerics.Vectors.xml
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.AssemblyReference.cache
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.Up2Date
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.dll
+C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.pdb

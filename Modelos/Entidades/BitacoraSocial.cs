@@ -43,13 +43,13 @@ namespace Modelos.Entidades
                     //Enviamos el comando a SqlServer
                     if (cmd.ExecuteNonQuery() > 0)
                     {
-                        MessageBox.Show("Ingreso correcto");
+                        MessageBox.Show("El registro de bitacora se ingreso correctamente", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         return true;
                     }
                     else
                     {
 
-                        MessageBox.Show("Error");
+                        MessageBox.Show("Lo sentimos, hubo un error al intentar reistrar los datos","Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         return false;
                     }
                 }
@@ -101,7 +101,7 @@ namespace Modelos.Entidades
                 actualizar.Parameters.AddWithValue("@id", idBitacora);
 
                 actualizar.ExecuteNonQuery();
-                MessageBox.Show("Datos actualizados", "Actualizar");
+                MessageBox.Show("Los datos se actualizaron con éxito", "Actualizar", MessageBoxButtons.OK,MessageBoxIcon.Information);
                 return true;
             }
             catch (Exception ex)

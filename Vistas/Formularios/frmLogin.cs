@@ -56,6 +56,8 @@ namespace Vistas.Formularios
 
             if (usuario.VerificarLogin(nombreUsuario, clave))
             {
+                int idUsuario = Usuario.ObtenerIdUsuario(nombreUsuario);
+
                 if (Usuario.IdentificarEstado(nombreUsuario) == 1)
                 {
                     MessageBox.Show("Los usuarios inactivos no puden iniciar sesión", "¡Lo sentimos!", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -67,14 +69,15 @@ namespace Vistas.Formularios
                     int id_Rol = Usuario.IdentificarRol(nombreUsuario);
                     if (id_Rol == 1)
                     {
-                        frmSocialClock fe = new frmSocialClock();
+
+                        frmSocialClock fe = new frmSocialClock(idUsuario);
                         fe.Show();
                         this.Hide();
                         MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!",MessageBoxButtons.OK,MessageBoxIcon.Information);
                     }
                     else if (id_Rol == 2)
                     {
-                        frmSocialClock_Colaborador fe = new frmSocialClock_Colaborador();
+                        frmSocialClock_Colaborador fe = new frmSocialClock_Colaborador(idUsuario);
                         fe.Show();
                         this.Hide();
                         MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!", MessageBoxButtons.OK, MessageBoxIcon.Information);

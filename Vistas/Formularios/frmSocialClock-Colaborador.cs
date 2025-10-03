@@ -13,9 +13,11 @@ namespace Vistas.Formularios
 {
     public partial class frmSocialClock_Colaborador : Form
     {
-        public frmSocialClock_Colaborador()
+        private int id_Usuario;
+        public frmSocialClock_Colaborador( int idUsuario)
         {
             InitializeComponent();
+            id_Usuario = idUsuario;
         }
 
         private void frmSocialClock_Colaborador_Load(object sender, EventArgs e)
@@ -63,7 +65,7 @@ namespace Vistas.Formularios
             formularioPintar.Show();
         }
         #endregion
-        
+
         private void btnSalir_Click_1(object sender, EventArgs e)
         {
             frmLogin se = new frmLogin();

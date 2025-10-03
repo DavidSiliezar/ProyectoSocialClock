@@ -256,6 +256,25 @@ namespace Modelos.Entidades
             return existenUsuarios;
         }
 
+        public static int ObtenerIdUsuario(string nombreUsuario)
+        {
+            try
+            {
+                SqlConnection con = Conexion.Conectar();
+                string query = "Select idUsuario from Usuario Where nombreUsuario = @Usuario";
+                SqlCommand cmd = new SqlCommand(query, con);
+
+                cmd.Parameters.AddWithValue("@Usuario", nombreUsuario);
+
+                int id = Convert.ToInt32(cmd.ExecuteScalar());
+                return id;
+            }
+            catch (Exception)
+            {
+                return -1;
+            }
+        }
+           
 
 
         public static int IdentificarEstado(string nombreusuario)
