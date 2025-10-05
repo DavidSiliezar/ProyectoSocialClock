@@ -56,28 +56,32 @@ namespace Vistas.Formularios
 
             if (usuario.VerificarLogin(nombreUsuario, clave))
             {
-                int idUsuario = Usuario.ObtenerIdUsuario(nombreUsuario);
-
                 if (Usuario.IdentificarEstado(nombreUsuario) == 1)
                 {
                     MessageBox.Show("Los usuarios inactivos no puden iniciar sesión", "¡Lo sentimos!", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return;
                 }
+                Sesion.IdUsuario = Sesion.ObtenerIdPorNombre(nombreUsuario.Trim());
+                Sesion.NombreUsuario = nombreUsuario.Trim();
 
                 if (Usuario.IdentificarPrimerLogin(nombreUsuario) == 1)
                 {
+                    int id = Sesion.ObtenerIdPorNombre(nombreUsuario);
+                    Sesion.IdUsuario = id;
+                    Sesion.NombreUsuario = nombreUsuario;
+
                     int id_Rol = Usuario.IdentificarRol(nombreUsuario);
                     if (id_Rol == 1)
                     {
-
-                        frmSocialClock fe = new frmSocialClock(idUsuario);
+                        frmSocialClock fe = new frmSocialClock();
                         fe.Show();
                         this.Hide();
                         MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!",MessageBoxButtons.OK,MessageBoxIcon.Information);
+
                     }
                     else if (id_Rol == 2)
                     {
-                        frmSocialClock_Colaborador fe = new frmSocialClock_Colaborador(idUsuario);
+                        frmSocialClock_Colaborador fe = new frmSocialClock_Colaborador();
                         fe.Show();
                         this.Hide();
                         MessageBox.Show("Inicio de sesión exitoso", "¡Bienvenido!", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -89,6 +93,10 @@ namespace Vistas.Formularios
                 }
                 else if(Usuario.IdentificarPrimerLogin(nombreUsuario) == 0)
                 {
+                    int id = Sesion.ObtenerIdPorNombre(nombreUsuario);
+                    Sesion.IdUsuario = id;
+                    Sesion.NombreUsuario = nombreUsuario;
+
                     frmCambiarClave fe = new frmCambiarClave();
                     this.Hide();
                     fe.Show();

@@ -22,10 +22,15 @@ namespace Vistas.Formularios
     public partial class frmEstadisticas : Form
     {
         int month, year;
+        public static int static_mes, static_año;
+            
 
         public frmEstadisticas()
         {
             InitializeComponent();
+
+            //cargar los metodos
+
             RedondearPanel(pnlEstadisticas, 40);
             ocultarSubTabla(false);
             MostrarEstudiantePrimerAño();
@@ -34,6 +39,23 @@ namespace Vistas.Formularios
             MostrarCantidadEstudiantesPrimer();
             MostrarCantidadEstudiantesSegundo();
             MostrarCantidadEstudiantestercer();
+
+            //responsive los paneles
+
+            flowLayoutPanel1.Dock = DockStyle.Fill;
+            flowLayoutPanel1.AutoScroll = true;
+            flowLayoutPanel1.WrapContents = false; 
+            flowLayoutPanel1.FlowDirection = FlowDirection.LeftToRight;
+
+           
+            panel1.Dock = DockStyle.None;
+            panel2.Dock = DockStyle.None;
+            panel3.Dock = DockStyle.None;
+
+         
+            panel1.Margin = new Padding(3);
+            panel2.Margin = new Padding(3);
+            panel3.Margin = new Padding(3);
         }
 
         //Metodo para redondear las esquinas de los paneles
@@ -192,7 +214,7 @@ namespace Vistas.Formularios
             lblEstadísticas.TextAlign = ContentAlignment.MiddleCenter;
             lblEstadísticas.BringToFront();
             displayDays();
-           
+
 
         }
         
@@ -205,9 +227,14 @@ namespace Vistas.Formularios
             month = now.Month;
             year = now.Year;
 
-            string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
+            string monthName = CultureInfo
+                      .GetCultureInfo("es-ES")   
+                      .DateTimeFormat
+                      .GetMonthName(month);
             lblMonth.Text = monthName + "" + year;
 
+            static_mes = month;
+            static_año = year;
 
             DateTime StartOfTheMonth = new DateTime(year, month, 1);
             int days = DateTime.DaysInMonth(year,month);
@@ -217,6 +244,9 @@ namespace Vistas.Formularios
             {
                 UserControlBlank ucBlank = new UserControlBlank();
                 diasContainer.Controls.Add(ucBlank);
+                var ucDay = new UserControlDays();
+                ucDay.SetDay(i);                    
+                flowLayoutPanel1.Controls.Add(ucDay);
             }
             for (int i = 1; i <= days; i++)
             {
@@ -224,13 +254,14 @@ namespace Vistas.Formularios
                 ucDays.days(i);
                 diasContainer.Controls.Add(ucDays);
             }
+
         }
         private void CargarEstadisticasChart2()
         {
             try
             {
                 using (SqlConnection conexion = Conexion.Conectar())
-                using (SqlCommand comando = new SqlCommand("LabibisPorProyecto1", conexion))
+                using (SqlCommand comando = new SqlCommand("AlumnosPorProyecto1", conexion))
                 {
                     comando.CommandType = CommandType.StoredProcedure;
 
@@ -257,7 +288,7 @@ namespace Vistas.Formularios
             {
                 MessageBox.Show("Error al cargar datos de gráfico de barra: " + ex.Message);
             }
-
+            chBarra.ChartAreas[0].AxisX.LabelStyle.Angle = -45;
         }
         private void CargarEstadisticasChartPrimer()
         {
@@ -446,9 +477,21 @@ namespace Vistas.Formularios
         private void btnAtras_Click(object sender, EventArgs e)
         {
             diasContainer.Controls.Clear();
-            month--;
+            if (month == 1)
+            {
+                month = 12; year--; 
+            } 
+            else
+            {
+                month--; 
+            }
+            static_mes = month;
+            static_año = year;  
 
-            string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
+            string monthName = CultureInfo
+                      .GetCultureInfo("es-ES")   
+                      .DateTimeFormat
+                      .GetMonthName(month);
             lblMonth.Text = monthName + "" + year;
 
             DateTime StartOfTheMonth = new DateTime(year, month, 1);
@@ -470,9 +513,23 @@ namespace Vistas.Formularios
         private void btnAdelante_Click(object sender, EventArgs e)
         {
             diasContainer.Controls.Clear();
-            month++;
+          
+            if (month == 12)
+            {
+                month = 1; year++; 
+            } 
+            else
+            {
+                month++; 
+            }
 
-            string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
+            static_mes = month;
+            static_año = year;
+
+            string monthName = CultureInfo
+                      .GetCultureInfo("es-ES")   
+                      .DateTimeFormat
+                      .GetMonthName(month);
             lblMonth.Text = monthName + "" + year;
 
             DateTime StartOfTheMonth = new DateTime(year, month, 1);
@@ -490,7 +547,18 @@ namespace Vistas.Formularios
                 diasContainer.Controls.Add(ucDays);
             }
         }
-      
+
+        private void chBarra_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void horaFecha_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString("hh:mm:ss");
+            lblFecha.Text = DateTime.Now.ToString("dddd, dd 'de' MMMM yyyy",
+                             new CultureInfo("es-ES"));
+        }
 
         private void monthCalendar2_DateChanged_3(object sender, DateRangeEventArgs e)
         {

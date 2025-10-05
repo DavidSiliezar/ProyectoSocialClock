@@ -34,11 +34,11 @@
             this.lblCorreo = new System.Windows.Forms.Label();
             this.lblClave = new System.Windows.Forms.Label();
             this.pnlPrimerUsuario = new System.Windows.Forms.Panel();
+            this.btnRegistrar = new Vistas.Clases.RedondearBoton();
             this.txtClaveRegistrar = new System.Windows.Forms.TextBox();
             this.txtCorreoRegistrar = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.btnRegistrar = new Vistas.Clases.RedondearBoton();
             this.panel1.SuspendLayout();
             this.pnlPrimerUsuario.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -104,10 +104,30 @@
             this.pnlPrimerUsuario.Controls.Add(this.lblCorreo);
             this.pnlPrimerUsuario.Controls.Add(this.lblClave);
             this.pnlPrimerUsuario.Location = new System.Drawing.Point(237, 166);
-            this.pnlPrimerUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlPrimerUsuario.Margin = new System.Windows.Forms.Padding(4);
             this.pnlPrimerUsuario.Name = "pnlPrimerUsuario";
             this.pnlPrimerUsuario.Size = new System.Drawing.Size(553, 389);
             this.pnlPrimerUsuario.TabIndex = 6;
+            // 
+            // btnRegistrar
+            // 
+            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(232)))), ((int)(((byte)(235)))));
+            this.btnRegistrar.BorderColor = System.Drawing.Color.Aquamarine;
+            this.btnRegistrar.BorderRadius = 30;
+            this.btnRegistrar.BorderSize = 0;
+            this.btnRegistrar.FlatAppearance.BorderSize = 0;
+            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrar.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegistrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(56)))));
+            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnRegistrar.Location = new System.Drawing.Point(157, 306);
+            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnRegistrar.Name = "btnRegistrar";
+            this.btnRegistrar.Size = new System.Drawing.Size(241, 57);
+            this.btnRegistrar.TabIndex = 7;
+            this.btnRegistrar.Text = "Registrar";
+            this.btnRegistrar.UseVisualStyleBackColor = false;
+            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click_1);
             // 
             // txtClaveRegistrar
             // 
@@ -120,6 +140,7 @@
             this.txtClaveRegistrar.PasswordChar = '*';
             this.txtClaveRegistrar.Size = new System.Drawing.Size(234, 25);
             this.txtClaveRegistrar.TabIndex = 9;
+            this.txtClaveRegistrar.WordWrap = false;
             this.txtClaveRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClaveRegistrar_KeyPress_1);
             // 
             // txtCorreoRegistrar
@@ -132,6 +153,7 @@
             this.txtCorreoRegistrar.Name = "txtCorreoRegistrar";
             this.txtCorreoRegistrar.Size = new System.Drawing.Size(234, 25);
             this.txtCorreoRegistrar.TabIndex = 8;
+            this.txtCorreoRegistrar.WordWrap = false;
             this.txtCorreoRegistrar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreoRegistrar_KeyPress_1);
             // 
             // pictureBox2
@@ -153,26 +175,6 @@
             this.pictureBox1.Size = new System.Drawing.Size(295, 60);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
-            // 
-            // btnRegistrar
-            // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(232)))), ((int)(((byte)(235)))));
-            this.btnRegistrar.BorderColor = System.Drawing.Color.Aquamarine;
-            this.btnRegistrar.BorderRadius = 30;
-            this.btnRegistrar.BorderSize = 0;
-            this.btnRegistrar.FlatAppearance.BorderSize = 0;
-            this.btnRegistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRegistrar.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegistrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(10)))), ((int)(((byte)(19)))), ((int)(((byte)(56)))));
-            this.btnRegistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnRegistrar.Location = new System.Drawing.Point(157, 306);
-            this.btnRegistrar.Margin = new System.Windows.Forms.Padding(4);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(241, 57);
-            this.btnRegistrar.TabIndex = 7;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.UseVisualStyleBackColor = false;
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click_1);
             // 
             // frmPrimerUsuario
             // 

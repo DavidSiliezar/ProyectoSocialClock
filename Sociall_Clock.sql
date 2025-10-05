@@ -431,7 +431,7 @@ GROUP BY Proyecto.nombreProyecto
 ORDER BY Proyecto.nombreProyecto;
 GO
 
-CREATE PROC LabibisPorProyecto1
+CREATE PROC AlumnosPorProyecto1
 AS
 SELECT  Proyecto.nombreProyecto AS Proyecto,
 COUNT(E.idEstudiante) AS Alumnos 
@@ -440,6 +440,8 @@ LEFT JOIN Estudiante E ON E.id_Proyecto = Proyecto.idProyecto
 GROUP BY Proyecto.nombreProyecto
 ORDER BY Proyecto;
 GO
+
+
 
 delete from Usuario
 select *from Usuario

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
@@ -173,7 +174,10 @@
             this.lblDomingo = new System.Windows.Forms.Label();
             this.diasContainer = new System.Windows.Forms.FlowLayoutPanel();
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblFecha = new System.Windows.Forms.Label();
+            this.lblHora = new System.Windows.Forms.Label();
             this.tableLayoutPanel18 = new System.Windows.Forms.TableLayoutPanel();
+            this.horaFecha = new System.Windows.Forms.Timer(this.components);
             this.HomePageStats.SuspendLayout();
             this.HomePage.SuspendLayout();
             this.tlpInicio.SuspendLayout();
@@ -240,6 +244,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb3eranio)).BeginInit();
             this.pnlBusqueda.SuspendLayout();
             this.Calendar.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
             this.SuspendLayout();
             // 
             // monthCalendar1
@@ -1421,6 +1426,7 @@
             this.chBarra.Size = new System.Drawing.Size(1776, 303);
             this.chBarra.TabIndex = 2;
             this.chBarra.Text = "chart1";
+            this.chBarra.Click += new System.EventHandler(this.chBarra_Click);
             // 
             // tableLayoutPanel8
             // 
@@ -1534,7 +1540,7 @@
             this.panel3.Controls.Add(this.lblCantidad3);
             this.panel3.Controls.Add(this.pb3eranio);
             this.panel3.Controls.Add(this.lbl3eranio);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(570, 3);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(279, 210);
@@ -1599,7 +1605,7 @@
             this.btnBuscar.BorderSize = 0;
             this.btnBuscar.FlatAppearance.BorderSize = 0;
             this.btnBuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnBuscar.Location = new System.Drawing.Point(1592, 1514);
+            this.btnBuscar.Location = new System.Drawing.Point(1592, 1512);
             this.btnBuscar.Margin = new System.Windows.Forms.Padding(4);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(188, 49);
@@ -1612,7 +1618,7 @@
             this.txtBusqueda.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtBusqueda.Font = new System.Drawing.Font("Arial", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBusqueda.ForeColor = System.Drawing.Color.Silver;
-            this.txtBusqueda.Location = new System.Drawing.Point(893, 1526);
+            this.txtBusqueda.Location = new System.Drawing.Point(893, 1524);
             this.txtBusqueda.Margin = new System.Windows.Forms.Padding(4);
             this.txtBusqueda.Multiline = true;
             this.txtBusqueda.Name = "txtBusqueda";
@@ -1645,7 +1651,6 @@
             // 
             // btnAtras
             // 
-          //  this.btnAtras.Image = global::Vistas.Properties.Resources.Atras;
             this.btnAtras.Location = new System.Drawing.Point(429, 20);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 79);
@@ -1655,7 +1660,6 @@
             // 
             // btnAdelante
             // 
-       //     this.btnAdelante.Image = global::Vistas.Properties.Resources.Adelante;
             this.btnAdelante.Location = new System.Drawing.Point(540, 20);
             this.btnAdelante.Name = "btnAdelante";
             this.btnAdelante.Size = new System.Drawing.Size(81, 79);
@@ -1753,7 +1757,6 @@
             // diasContainer
             // 
             this.diasContainer.AutoScroll = true;
-            this.diasContainer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.diasContainer.Location = new System.Drawing.Point(3, 173);
             this.diasContainer.Margin = new System.Windows.Forms.Padding(0);
             this.diasContainer.Name = "diasContainer";
@@ -1762,11 +1765,33 @@
             // 
             // pnlHeader
             // 
+            this.pnlHeader.Controls.Add(this.lblFecha);
+            this.pnlHeader.Controls.Add(this.lblHora);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(3, 3);
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1897, 100);
             this.pnlHeader.TabIndex = 11;
+            // 
+            // lblFecha
+            // 
+            this.lblFecha.AutoSize = true;
+            this.lblFecha.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFecha.Location = new System.Drawing.Point(1367, 36);
+            this.lblFecha.Name = "lblFecha";
+            this.lblFecha.Size = new System.Drawing.Size(95, 33);
+            this.lblFecha.TabIndex = 1;
+            this.lblFecha.Text = "label8";
+            // 
+            // lblHora
+            // 
+            this.lblHora.AutoSize = true;
+            this.lblHora.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHora.Location = new System.Drawing.Point(1038, 32);
+            this.lblHora.Name = "lblHora";
+            this.lblHora.Size = new System.Drawing.Size(95, 33);
+            this.lblHora.TabIndex = 0;
+            this.lblHora.Text = "label8";
             // 
             // tableLayoutPanel18
             // 
@@ -1785,6 +1810,11 @@
             this.tableLayoutPanel18.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel18.Size = new System.Drawing.Size(1897, 887);
             this.tableLayoutPanel18.TabIndex = 12;
+            // 
+            // horaFecha
+            // 
+            this.horaFecha.Enabled = true;
+            this.horaFecha.Tick += new System.EventHandler(this.horaFecha_Tick);
             // 
             // frmEstadisticas
             // 
@@ -1879,6 +1909,8 @@
             this.pnlBusqueda.PerformLayout();
             this.Calendar.ResumeLayout(false);
             this.Calendar.PerformLayout();
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -2001,5 +2033,8 @@
         private System.Windows.Forms.PictureBox pb3eranio;
         private System.Windows.Forms.Label lbl3eranio;
         private System.Windows.Forms.MonthCalendar monthCalendar2;
+        private System.Windows.Forms.Label lblHora;
+        private System.Windows.Forms.Label lblFecha;
+        private System.Windows.Forms.Timer horaFecha;
     }
 }

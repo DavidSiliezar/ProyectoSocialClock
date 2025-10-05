@@ -67,12 +67,14 @@
     <Compile Include="Entidades\Especialidad.cs" />
     <Compile Include="Entidades\Estadisticas.cs" />
     <Compile Include="Entidades\Estudiante.cs" />
+    <Compile Include="Entidades\Evento.cs" />
     <Compile Include="Entidades\NivelAcademico.cs" />
     <Compile Include="Entidades\OlvidasteLaContraseña.cs" />
     <Compile Include="Entidades\Proyecto.cs" />
     <Compile Include="Entidades\Rol.cs" />
     <Compile Include="Entidades\Seccion.cs" />
     <Compile Include="Entidades\ServicioDeRecuperacion.cs" />
+    <Compile Include="Entidades\Sesion.cs" />
     <Compile Include="Entidades\SoporteDeContrasena.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

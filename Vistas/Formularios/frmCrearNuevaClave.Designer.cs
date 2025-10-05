@@ -59,7 +59,7 @@
             this.gbCrearUsuario.Location = new System.Drawing.Point(0, 0);
             this.gbCrearUsuario.Margin = new System.Windows.Forms.Padding(40, 12, 40, 12);
             this.gbCrearUsuario.Name = "gbCrearUsuario";
-            this.gbCrearUsuario.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gbCrearUsuario.Padding = new System.Windows.Forms.Padding(4);
             this.gbCrearUsuario.Size = new System.Drawing.Size(1240, 610);
             this.gbCrearUsuario.TabIndex = 6;
             this.gbCrearUsuario.TabStop = false;
@@ -77,7 +77,7 @@
             this.pnlNuevaClave.Controls.Add(this.LblConfirmar);
             this.pnlNuevaClave.Controls.Add(this.lblIngresaClave);
             this.pnlNuevaClave.Location = new System.Drawing.Point(125, 85);
-            this.pnlNuevaClave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlNuevaClave.Margin = new System.Windows.Forms.Padding(4);
             this.pnlNuevaClave.Name = "pnlNuevaClave";
             this.pnlNuevaClave.Size = new System.Drawing.Size(580, 453);
             this.pnlNuevaClave.TabIndex = 14;
@@ -85,6 +85,7 @@
             // txtConfirmarClave
             // 
             this.txtConfirmarClave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtConfirmarClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtConfirmarClave.Location = new System.Drawing.Point(165, 380);
             this.txtConfirmarClave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtConfirmarClave.MaxLength = 10;
@@ -93,11 +94,13 @@
             this.txtConfirmarClave.PasswordChar = '*';
             this.txtConfirmarClave.Size = new System.Drawing.Size(303, 30);
             this.txtConfirmarClave.TabIndex = 18;
+            this.txtConfirmarClave.WordWrap = false;
             this.txtConfirmarClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtConfirmarClave_KeyPress);
             // 
             // txtCorreo
             // 
             this.txtCorreo.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtCorreo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCorreo.Location = new System.Drawing.Point(177, 97);
             this.txtCorreo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtCorreo.MaxLength = 100;
@@ -106,11 +109,13 @@
             this.txtCorreo.PasswordChar = '*';
             this.txtCorreo.Size = new System.Drawing.Size(303, 30);
             this.txtCorreo.TabIndex = 17;
+            this.txtCorreo.WordWrap = false;
             this.txtCorreo.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCorreo_KeyPress);
             // 
             // txtClave
             // 
             this.txtClave.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtClave.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtClave.Location = new System.Drawing.Point(165, 238);
             this.txtClave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtClave.MaxLength = 10;
@@ -119,6 +124,7 @@
             this.txtClave.PasswordChar = '*';
             this.txtClave.Size = new System.Drawing.Size(303, 30);
             this.txtClave.TabIndex = 15;
+            this.txtClave.WordWrap = false;
             this.txtClave.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtClave_KeyPress);
             // 
             // pictureBox3

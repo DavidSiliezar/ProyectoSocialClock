@@ -129,7 +129,7 @@ namespace Vistas.Formularios
                     EnviarCorreoBienvenida(correo);
 
                     // Abrir formulario principal
-                    frmLogin menu = new frmLogin();
+                    frmSocialClock menu = new frmSocialClock();
                     menu.Show();
                     this.Hide();
                 }
