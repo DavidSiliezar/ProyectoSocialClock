@@ -45,6 +45,12 @@ namespace Vistas.Formularios
         private void frmEvento_Load(object sender, EventArgs e)
         {
             dtpFechaPublicacion.MinDate = DateTime.Today;
+            dtpFechaPublicacion.ValueChanged += (s, ev) =>
+            {
+                if (dtpFechaPublicacion.Value < DateTime.Now)
+                    dtpFechaPublicacion.Value = DateTime.Now;
+            };
+        
             mostrarEventos();
             txtEvento.Clear();
             lblUsuarioActual.Text = Sesion.NombreUsuario;
@@ -144,22 +150,49 @@ namespace Vistas.Formularios
                 MessageBox.Show("Por favor, completa todos los campos obligatorios.", "Campos incompletos", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
+            if (dtpFechaEvento.Value.Date < DateTime.Today)
+            {
+                MessageBox.Show("La fecha del evento debe ser hoy o posterior.", "Fecha no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                dtpFechaEvento.Focus();
+                return;
+            }
+            bool pubIncluyeHora = dtpFechaEvento.ShowUpDown
+                          || (dtpFechaEvento.CustomFormat != null && dtpFechaEvento.CustomFormat.Contains("H"));
+            DateTime limitePublicacion = pubIncluyeHora ? DateTime.Now : DateTime.Today;
+            if (dtpFechaEvento.Value < limitePublicacion)
+            {
+                MessageBox.Show("La fecha de publicación debe ser el presente o una fecha/hora futura.", "Fecha de publicación no válida", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                dtpFechaEvento.Focus();
+                return;
+            }
             else
             {
+
                 Evento evento = new Evento();
                 evento.NombreEvento = txtEvento.Text;
                 evento.DescripcionEvento = txtDescripcion.Text;
                 evento.FechaEvento = dtpFechaEvento.Value;
                 evento.FechaHoraPublicacion = dtpFechaPublicacion.Value;
                 int id = int.Parse(dgvEventos.CurrentRow.Cells[0].Value.ToString());
-                if (evento.actualizarEvento(id))
+
+                DialogResult respuesta = MessageBox.Show("¿Está seguro de que desea actualizar el evento?", "Confirmar actualización", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if(respuesta == DialogResult.Yes)
                 {
-                    mostrarEventos();
+                    if (evento.actualizarEvento(id) == true)
+                    {
+                        mostrarEventos();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Error al actualizar el evento", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Error al actualizar el evento", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("No se edito el evento", "Cancelado", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
+
+
             }
         }
 
@@ -214,6 +247,21 @@ namespace Vistas.Formularios
                 e.Handled = true;
                 return;
             }
+        }
+
+        private void txtBuscar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back) && (e.KeyChar != (char)Keys.Space))
+            {
+                MessageBox.Show("Solo permite letras", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void txtBuscar_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

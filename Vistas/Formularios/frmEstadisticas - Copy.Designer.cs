@@ -1651,6 +1651,7 @@
             // 
             // btnAtras
             // 
+            this.btnAtras.Image = ((System.Drawing.Image)(resources.GetObject("btnAtras.Image")));
             this.btnAtras.Location = new System.Drawing.Point(429, 20);
             this.btnAtras.Name = "btnAtras";
             this.btnAtras.Size = new System.Drawing.Size(75, 79);
@@ -1660,6 +1661,7 @@
             // 
             // btnAdelante
             // 
+            this.btnAdelante.Image = global::Vistas.Properties.Resources.Adelante;
             this.btnAdelante.Location = new System.Drawing.Point(540, 20);
             this.btnAdelante.Name = "btnAdelante";
             this.btnAdelante.Size = new System.Drawing.Size(81, 79);

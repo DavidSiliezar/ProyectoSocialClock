@@ -89,14 +89,16 @@
             this.txtBuscar.Name = "txtBuscar";
             this.txtBuscar.Size = new System.Drawing.Size(708, 31);
             this.txtBuscar.TabIndex = 2;
-            this.txtBuscar.Text = "Ingrese el nombre del usuario";
+            this.txtBuscar.Text = "Ingrese el nombre del Evento\r\n";
             this.tlpAyuda.SetToolTip(this.txtBuscar, "Ingrese de 1 a 8 cara caracteres del carnet");
             this.txtBuscar.Click += new System.EventHandler(this.txtBuscar_Click);
+            this.txtBuscar.TextChanged += new System.EventHandler(this.txtBuscar_TextChanged);
+            this.txtBuscar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtBuscar_KeyPress);
             // 
             // txtEvento
             // 
             this.txtEvento.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtEvento.Location = new System.Drawing.Point(279, 33);
+            this.txtEvento.Location = new System.Drawing.Point(278, 33);
             this.txtEvento.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtEvento.MaxLength = 40;
             this.txtEvento.Name = "txtEvento";
@@ -108,7 +110,7 @@
             // txtDescripcion
             // 
             this.txtDescripcion.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtDescripcion.Location = new System.Drawing.Point(279, 144);
+            this.txtDescripcion.Location = new System.Drawing.Point(278, 144);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtDescripcion.MaxLength = 40;
             this.txtDescripcion.Multiline = true;
@@ -224,7 +226,7 @@
             this.lblEvento.AutoSize = true;
             this.lblEvento.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEvento.ForeColor = System.Drawing.Color.Black;
-            this.lblEvento.Location = new System.Drawing.Point(62, 31);
+            this.lblEvento.Location = new System.Drawing.Point(61, 31);
             this.lblEvento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEvento.Name = "lblEvento";
             this.lblEvento.Size = new System.Drawing.Size(152, 44);
@@ -237,7 +239,7 @@
             this.lblDescripcion.AutoSize = true;
             this.lblDescripcion.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDescripcion.ForeColor = System.Drawing.Color.Black;
-            this.lblDescripcion.Location = new System.Drawing.Point(17, 143);
+            this.lblDescripcion.Location = new System.Drawing.Point(16, 143);
             this.lblDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDescripcion.Name = "lblDescripcion";
             this.lblDescripcion.Size = new System.Drawing.Size(242, 44);
@@ -262,7 +264,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.63935F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(585, 223);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(584, 223);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // lblFechaEvento
@@ -271,7 +273,7 @@
             this.lblFechaEvento.AutoSize = true;
             this.lblFechaEvento.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaEvento.ForeColor = System.Drawing.Color.Black;
-            this.lblFechaEvento.Location = new System.Drawing.Point(44, 121);
+            this.lblFechaEvento.Location = new System.Drawing.Point(43, 121);
             this.lblFechaEvento.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFechaEvento.Name = "lblFechaEvento";
             this.lblFechaEvento.Size = new System.Drawing.Size(152, 88);
@@ -284,7 +286,7 @@
             this.lblFechaHoraPublicacion.AutoSize = true;
             this.lblFechaHoraPublicacion.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFechaHoraPublicacion.ForeColor = System.Drawing.Color.Black;
-            this.lblFechaHoraPublicacion.Location = new System.Drawing.Point(15, 0);
+            this.lblFechaHoraPublicacion.Location = new System.Drawing.Point(14, 0);
             this.lblFechaHoraPublicacion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFechaHoraPublicacion.Name = "lblFechaHoraPublicacion";
             this.lblFechaHoraPublicacion.Size = new System.Drawing.Size(210, 108);
@@ -295,7 +297,7 @@
             // 
             this.panel2.Controls.Add(this.dtpFechaEvento);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(243, 110);
+            this.panel2.Location = new System.Drawing.Point(242, 110);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(305, 111);
@@ -315,7 +317,7 @@
             // 
             this.panel1.Controls.Add(this.dtpFechaPublicacion);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(243, 2);
+            this.panel1.Location = new System.Drawing.Point(242, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(305, 104);
@@ -342,7 +344,7 @@
             this.tableLayoutPanel6.Controls.Add(this.lblFechaHoraPublicacion, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.lblFechaEvento, 0, 1);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(597, 4);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(596, 4);
             this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
@@ -350,7 +352,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.37615F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(551, 223);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(550, 223);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // panel4
@@ -360,10 +362,10 @@
             this.panel4.Controls.Add(this.btnAgregar);
             this.panel4.Controls.Add(this.btnEditar);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(1156, 4);
+            this.panel4.Location = new System.Drawing.Point(1154, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(399, 223);
+            this.panel4.Size = new System.Drawing.Size(401, 223);
             this.panel4.TabIndex = 1;
             // 
             // btnEliminar
@@ -457,7 +459,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.48248F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.51752F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 406F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 408F));
             this.tableLayoutPanel4.Controls.Add(this.panel4, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 0);

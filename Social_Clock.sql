@@ -1,6 +1,6 @@
-CREATE DATABASE Sociall_Clock
+CREATE DATABASE Social_Clock
 GO
-USE Sociall_Clock;
+USE Social_Clock;
 GO
 
 
@@ -445,3 +445,14 @@ GO
 
 delete from Usuario
 select *from Usuario
+
+SELECT 
+    e.idEvento,
+    e.nombreEvento        AS Evento,
+    e.descripcionEvento   AS [Descripción],
+    e.fechaHoraPublicacion AS [Fecha de publicación],
+    e.fechaEvento         AS [Fecha del evento],
+    u.nombreUsuario       AS [Nombre del usuario]
+FROM Evento AS e
+INNER JOIN Usuario AS u 
+    ON e.idUsuario = u.idUsuario

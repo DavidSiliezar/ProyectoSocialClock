@@ -11,30 +11,24 @@ namespace Modelos
 {
     public class Conexion
     {
-        private static string servidor = "LAPTOP-0LLFB3RC\\SQLEXPRESS";
-        private static string baseDeDatos = "Sociall_Clock";
+        private static string servidor = "abra\\SQLEXPRESS";
+        private static string basedeDatos = "Social_Clock";
+
 
         public static SqlConnection Conectar()
         {
             try
             {
-                //creamos una cadena de conexion
-                string cadena =
-                    $"Data Source = {servidor},1833;Initial Catalog = {baseDeDatos};Integrated Security = true;";
-
-                //Creamos un objeto de tipo SqlConnection
+                string cadena = $"Data Source= {servidor}; Initial Catalog={basedeDatos}; Integrated Security=true;";
                 SqlConnection con = new SqlConnection(cadena);
-
-                //Abrimos la conexion entre SQL Server y nuestra aplicacion
                 con.Open();
                 return con;
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error en la conexion con la base de datos" + ex);
+                MessageBox.Show("No se pudo conectar al servidor" + ex, "Error de Conexion", MessageBoxButton.OK, MessageBoxImage.Error);
                 return null;
             }
-
         }
     }
 }

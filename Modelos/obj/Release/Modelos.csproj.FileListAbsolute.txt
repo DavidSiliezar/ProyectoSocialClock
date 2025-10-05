@@ -36,3 +36,22 @@ C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Model
 C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.Up2Date
 C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.dll
 C:\Users\garbr\OneDrive\Escritorio\ProyectoSocialClock\Modelos\obj\Release\Modelos.pdb
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\Modelos.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\Modelos.pdb
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\BCrypt.Net-Next.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Buffers.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Data.SqlClient.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Memory.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Numerics.Vectors.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\BCrypt.Net-Next.xml
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Buffers.xml
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Data.SqlClient.xml
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Memory.xml
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Numerics.Vectors.xml
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.AssemblyReference.cache
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.CoreCompileInputs.cache
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\obj\Release\Modelos.csproj.Up2Date
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\obj\Release\Modelos.dll
+C:\Users\abrap\OneDrive\Documentos\Social Clock\ProyectoSocialClock\Modelos\obj\Release\Modelos.pdb

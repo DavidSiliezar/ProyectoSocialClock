@@ -37,8 +37,10 @@ namespace Modelos.Entidades
             try
             {
                 SqlConnection conexion = Conexion.Conectar();
-                string consultaQuery = "select e.idEvento, e.nombreEvento,e.descripcionEvento,e.fechaHoraPublicacion,e.fechaEvento,u.nombreUsuario\r\n" +
-                    "From Evento e\r\ninner join Usuario u ON e.idUsuario = u.idUsuario;";
+                string consultaQuery = "SELECT e.idEvento As [N°],\r\n    e.nombreEvento        AS [Evento],\r\n   " +
+                    " e.descripcionEvento   AS [Descripción],\r\n    e.fechaHoraPublicacion AS [Fecha de publicación],\r\n " +
+                    "   e.fechaEvento         AS [Fecha del evento],\r\n    u.nombreUsuario   " +
+                    "    AS [Nombre del usuario]\r\nFROM Evento AS e\r\nINNER JOIN Usuario AS u \r\n    ON e.idUsuario = u.idUsuario;";
                 SqlDataAdapter add = new SqlDataAdapter(consultaQuery, conexion);
                 DataTable tablaCargar = new DataTable();
                 add.Fill(tablaCargar);
