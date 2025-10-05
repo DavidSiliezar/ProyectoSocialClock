@@ -1,5 +1,4 @@
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Vistas\bin\Release\Manuales\Manual_Tecnico.pdf
-C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Vistas\bin\Release\Manuales\Manual_Usuario.pdf
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Vistas\bin\Release\Vistas.exe.config
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Vistas\bin\Release\Vistas.exe
 C:\Users\David S\OneDrive\Desktop\ProyectoSocialClock\Vistas\bin\Release\Vistas.pdb

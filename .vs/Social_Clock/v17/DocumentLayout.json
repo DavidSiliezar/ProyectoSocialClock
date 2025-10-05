@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\",
+  "WorkspaceRootPath": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\abrap\\onedrive\\documentos\\social clock\\proyectosocialclock\\vistas\\formularios\\frmevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|c:\\users\\david s\\onedrive\\desktop\\proyectosocialclock\\modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\conexion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\vistas\\formularios\\frmevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|c:\\users\\abrap\\onedrive\\documentos\\social clock\\proyectosocialclock\\vistas\\formularios\\frmevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\vistas\\formularios\\frmevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{49B1D86A-E762-48B8-9B6C-C10FBA6036D5}|Vistas\\Vistas.csproj|solutionrelative:vistas\\formularios\\frmevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|c:\\users\\abrap\\onedrive\\documentos\\social clock\\proyectosocialclock\\modelos\\entidades\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\modelos\\entidades\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB299C24-3266-4099-B3A7-D641A621F34A}|Modelos\\Modelos.csproj|solutionrelative:modelos\\entidades\\evento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,45 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Evento.cs",
-              "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Modelos\\Entidades\\Evento.cs",
-              "RelativeDocumentMoniker": "Modelos\\Entidades\\Evento.cs",
-              "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Modelos\\Entidades\\Evento.cs",
-              "RelativeToolTip": "Modelos\\Entidades\\Evento.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA1wCcAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T04:41:25.531Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmEvento.cs",
-              "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs",
-              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmEvento.cs",
-              "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs",
-              "RelativeToolTip": "Vistas\\Formularios\\frmEvento.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAADgv5MAAAAMAAAAAAAAAA==",
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Modelos\\Conexion\\Conexion.cs",
+              "RelativeDocumentMoniker": "Modelos\\Conexion\\Conexion.cs",
+              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Modelos\\Conexion\\Conexion.cs",
+              "RelativeToolTip": "Modelos\\Conexion\\Conexion.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T04:38:39.308Z",
+              "WhenOpened": "2025-10-05T06:27:03.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "frmEvento.cs",
+              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs",
+              "RelativeDocumentMoniker": "Vistas\\Formularios\\frmEvento.cs",
+              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs",
+              "RelativeToolTip": "Vistas\\Formularios\\frmEvento.cs",
+              "ViewState": "AgIAAG8AAAAAAAAAAADgv5MAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T04:38:39.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Evento.cs",
+              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Modelos\\Entidades\\Evento.cs",
+              "RelativeDocumentMoniker": "Modelos\\Entidades\\Evento.cs",
+              "ToolTip": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Modelos\\Entidades\\Evento.cs",
+              "RelativeToolTip": "Modelos\\Entidades\\Evento.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wCcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-05T04:41:25.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "frmEvento.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs",
+              "DocumentMoniker": "C:\\Users\\David S\\OneDrive\\Desktop\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs",
               "RelativeDocumentMoniker": "Vistas\\Formularios\\frmEvento.cs",
               "ToolTip": "C:\\Users\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs [Design]",
-              "RelativeToolTip": "Vistas\\Formularios\\frmEvento.cs [Design]",
+              "RelativeToolTip": "..\\..\\..\\..\\abrap\\OneDrive\\Documentos\\Social Clock\\ProyectoSocialClock\\Vistas\\Formularios\\frmEvento.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T04:38:29.09Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-05T04:38:29.09Z"
             }
           ]
         }
