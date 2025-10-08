@@ -48,7 +48,7 @@
             this.panel3.Controls.Add(this.panel1);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel3.Location = new System.Drawing.Point(-322, 0);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1693, 719);
             this.panel3.TabIndex = 11;
@@ -68,7 +68,7 @@
             // 
             this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(0, 0);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1680, 26);
             this.panel4.TabIndex = 5;
@@ -77,7 +77,7 @@
             // 
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
             this.panel1.Location = new System.Drawing.Point(1680, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(13, 719);
             this.panel1.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel2.Location = new System.Drawing.Point(0, 719);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1371, 31);
             this.panel2.TabIndex = 9;
@@ -100,7 +100,7 @@
             this.btnEstadistica.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEstadistica.Image = global::Vistas.Properties.Resources.estadistica;
             this.btnEstadistica.Location = new System.Drawing.Point(0, 310);
-            this.btnEstadistica.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEstadistica.Margin = new System.Windows.Forms.Padding(4);
             this.btnEstadistica.Name = "btnEstadistica";
             this.btnEstadistica.Size = new System.Drawing.Size(0, 156);
             this.btnEstadistica.TabIndex = 12;
@@ -116,7 +116,7 @@
             this.btnProyecto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnProyecto.Image = global::Vistas.Properties.Resources.proyectos2;
             this.btnProyecto.Location = new System.Drawing.Point(0, 150);
-            this.btnProyecto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnProyecto.Margin = new System.Windows.Forms.Padding(4);
             this.btnProyecto.Name = "btnProyecto";
             this.btnProyecto.Size = new System.Drawing.Size(0, 160);
             this.btnProyecto.TabIndex = 10;
@@ -132,7 +132,7 @@
             this.btnInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInicio.Image = global::Vistas.Properties.Resources.inicio2;
             this.btnInicio.Location = new System.Drawing.Point(0, 0);
-            this.btnInicio.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInicio.Margin = new System.Windows.Forms.Padding(4);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(0, 150);
             this.btnInicio.TabIndex = 8;
@@ -148,7 +148,7 @@
             this.btnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalir.Image = global::Vistas.Properties.Resources.salir;
             this.btnSalir.Location = new System.Drawing.Point(52, 837);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(4);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(73, 85);
             this.btnSalir.TabIndex = 14;
@@ -168,7 +168,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximumSize = new System.Drawing.Size(1842, 958);
             this.MinimumSize = new System.Drawing.Size(1363, 717);
             this.Name = "frmSocialClock_Colaborador";

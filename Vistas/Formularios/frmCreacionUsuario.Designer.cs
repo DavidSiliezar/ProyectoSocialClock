@@ -81,7 +81,7 @@
             // txtClave
             // 
             this.txtClave.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtClave.Location = new System.Drawing.Point(226, 40);
+            this.txtClave.Location = new System.Drawing.Point(225, 40);
             this.txtClave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtClave.MaxLength = 10;
             this.txtClave.Name = "txtClave";
@@ -94,7 +94,7 @@
             // txtUsuario
             // 
             this.txtUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtUsuario.Location = new System.Drawing.Point(226, 2);
+            this.txtUsuario.Location = new System.Drawing.Point(225, 2);
             this.txtUsuario.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtUsuario.MaxLength = 40;
             this.txtUsuario.Name = "txtUsuario";
@@ -193,7 +193,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.50746F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.49254F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 457F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 458F));
             this.tableLayoutPanel4.Controls.Add(this.panel4, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 0);
@@ -213,10 +213,10 @@
             this.panel4.Controls.Add(this.btnAgregar);
             this.panel4.Controls.Add(this.btnEditar);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(1117, 4);
+            this.panel4.Location = new System.Drawing.Point(1116, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(450, 80);
+            this.panel4.Size = new System.Drawing.Size(451, 80);
             this.panel4.TabIndex = 1;
             // 
             // btnEliminar
@@ -315,7 +315,7 @@
             this.tableLayoutPanel6.Controls.Add(this.lblRol, 0, 0);
             this.tableLayoutPanel6.Controls.Add(this.lblEstadoUsuario, 0, 1);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(544, 4);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(543, 4);
             this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 2;
@@ -432,7 +432,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.63935F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(532, 80);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(531, 80);
             this.tableLayoutPanel5.TabIndex = 0;
             // 
             // lblUsuario
@@ -454,7 +454,7 @@
             this.lblClave.AutoSize = true;
             this.lblClave.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblClave.ForeColor = System.Drawing.Color.Black;
-            this.lblClave.Location = new System.Drawing.Point(43, 38);
+            this.lblClave.Location = new System.Drawing.Point(42, 38);
             this.lblClave.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblClave.Name = "lblClave";
             this.lblClave.Size = new System.Drawing.Size(137, 42);
@@ -573,7 +573,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "frmCreacionUsuario";
-            this.Text = "CreacionUsuario";
+            this.Text = "Creacion de usuario";
             this.Load += new System.EventHandler(this.frmCreacionUsuario_Load);
             this.Resize += new System.EventHandler(this.frmCreacionUsuario_Resize);
             this.tableLayoutPanel1.ResumeLayout(false);

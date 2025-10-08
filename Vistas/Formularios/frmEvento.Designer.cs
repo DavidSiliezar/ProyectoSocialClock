@@ -297,7 +297,7 @@
             // 
             this.panel2.Controls.Add(this.dtpFechaEvento);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(242, 110);
+            this.panel2.Location = new System.Drawing.Point(241, 110);
             this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(305, 111);
@@ -317,7 +317,7 @@
             // 
             this.panel1.Controls.Add(this.dtpFechaPublicacion);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(242, 2);
+            this.panel1.Location = new System.Drawing.Point(241, 2);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(305, 104);
@@ -352,7 +352,7 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 51.37615F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(550, 223);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(549, 223);
             this.tableLayoutPanel6.TabIndex = 1;
             // 
             // panel4
@@ -362,10 +362,10 @@
             this.panel4.Controls.Add(this.btnAgregar);
             this.panel4.Controls.Add(this.btnEditar);
             this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel4.Location = new System.Drawing.Point(1154, 4);
+            this.panel4.Location = new System.Drawing.Point(1153, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(401, 223);
+            this.panel4.Size = new System.Drawing.Size(402, 223);
             this.panel4.TabIndex = 1;
             // 
             // btnEliminar
@@ -459,7 +459,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 51.48248F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 48.51752F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 408F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 409F));
             this.tableLayoutPanel4.Controls.Add(this.panel4, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel5, 0, 0);
@@ -550,7 +550,7 @@
             this.MaximizeBox = false;
             this.Name = "frmEvento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmEvento";
+            this.Text = "Eventos";
             this.Load += new System.EventHandler(this.frmEvento_Load);
             this.Shown += new System.EventHandler(this.frmEvento_Shown);
             this.tableLayoutPanel2.ResumeLayout(false);

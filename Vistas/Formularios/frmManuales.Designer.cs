@@ -58,7 +58,7 @@
             this.ClientSize = new System.Drawing.Size(1202, 642);
             this.Controls.Add(this.btnManuales);
             this.Name = "frmManuales";
-            this.Text = "frmManuales";
+            this.Text = "Manuales";
             this.Load += new System.EventHandler(this.frmManuales_Load);
             this.ResumeLayout(false);
 

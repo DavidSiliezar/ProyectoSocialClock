@@ -235,7 +235,7 @@
             this.MinimumSize = new System.Drawing.Size(1048, 657);
             this.Name = "frmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "  ";
+            this.Text = "  Inicio de Sesion";
             this.Load += new System.EventHandler(this.frmLogin_Load);
             this.panel1.ResumeLayout(false);
             this.pnlLogin.ResumeLayout(false);

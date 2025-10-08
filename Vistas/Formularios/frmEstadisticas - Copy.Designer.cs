@@ -1831,7 +1831,7 @@
             this.MaximizeBox = false;
             this.Name = "frmEstadisticas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Inicio";
+            this.Text = "Estadisticas";
             this.Load += new System.EventHandler(this.frmEstadisticas_Load);
             this.Resize += new System.EventHandler(this.frmEstadisticas_Resize);
             this.HomePageStats.ResumeLayout(false);

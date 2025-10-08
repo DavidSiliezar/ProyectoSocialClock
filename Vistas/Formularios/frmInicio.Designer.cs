@@ -270,7 +270,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 54.6748F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.3252F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 457F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 458F));
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel7, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.panel1, 0, 0);
@@ -297,7 +297,7 @@
             this.tableLayoutPanel6.Controls.Add(this.cbProyecto, 1, 1);
             this.tableLayoutPanel6.Controls.Add(this.txtCarnet, 1, 2);
             this.tableLayoutPanel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel6.Location = new System.Drawing.Point(595, 4);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(594, 4);
             this.tableLayoutPanel6.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel6.Name = "tableLayoutPanel6";
             this.tableLayoutPanel6.RowCount = 4;
@@ -417,12 +417,12 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.Controls.Add(this.panel4, 0, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(1084, 4);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(1083, 4);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.35294F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(450, 218);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(451, 218);
             this.tableLayoutPanel7.TabIndex = 2;
             // 
             // panel4
@@ -434,7 +434,7 @@
             this.panel4.Location = new System.Drawing.Point(4, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(442, 210);
+            this.panel4.Size = new System.Drawing.Size(443, 210);
             this.panel4.TabIndex = 2;
             // 
             // btnLimpiar
@@ -513,7 +513,7 @@
             this.panel1.Location = new System.Drawing.Point(4, 4);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(583, 218);
+            this.panel1.Size = new System.Drawing.Size(582, 218);
             this.panel1.TabIndex = 3;
             // 
             // lblEstado
@@ -564,7 +564,7 @@
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.87097F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.4086F));
             this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel5.Size = new System.Drawing.Size(583, 150);
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(582, 150);
             this.tableLayoutPanel5.TabIndex = 1;
             // 
             // lblNombre
@@ -584,7 +584,7 @@
             // 
             this.txtNombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNombre.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(351, 105);
+            this.txtNombre.Location = new System.Drawing.Point(350, 105);
             this.txtNombre.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombre.MaxLength = 50;
             this.txtNombre.Name = "txtNombre";
@@ -599,7 +599,7 @@
             this.cbNivelAcademico.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbNivelAcademico.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbNivelAcademico.FormattingEnabled = true;
-            this.cbNivelAcademico.Location = new System.Drawing.Point(351, 4);
+            this.cbNivelAcademico.Location = new System.Drawing.Point(350, 4);
             this.cbNivelAcademico.Margin = new System.Windows.Forms.Padding(4);
             this.cbNivelAcademico.Name = "cbNivelAcademico";
             this.cbNivelAcademico.Size = new System.Drawing.Size(227, 38);
@@ -611,7 +611,7 @@
             this.cbSeccion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSeccion.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSeccion.FormattingEnabled = true;
-            this.cbSeccion.Location = new System.Drawing.Point(351, 53);
+            this.cbSeccion.Location = new System.Drawing.Point(350, 53);
             this.cbSeccion.Margin = new System.Windows.Forms.Padding(4);
             this.cbSeccion.Name = "cbSeccion";
             this.cbSeccion.Size = new System.Drawing.Size(227, 38);

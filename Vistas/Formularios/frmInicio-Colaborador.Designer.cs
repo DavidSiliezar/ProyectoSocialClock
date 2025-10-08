@@ -260,7 +260,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.4689F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.5311F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 434F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 435F));
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel6, 1, 0);
             this.tableLayoutPanel4.Controls.Add(this.tableLayoutPanel7, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.panel1, 0, 0);
@@ -296,14 +296,14 @@
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 34.4086F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 62F));
             this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel6.Size = new System.Drawing.Size(589, 218);
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(588, 218);
             this.tableLayoutPanel6.TabIndex = 4;
             // 
             // txtNie
             // 
             this.txtNie.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtNie.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNie.Location = new System.Drawing.Point(380, 167);
+            this.txtNie.Location = new System.Drawing.Point(379, 167);
             this.txtNie.Margin = new System.Windows.Forms.Padding(4);
             this.txtNie.Mask = "00000000";
             this.txtNie.Name = "txtNie";
@@ -316,7 +316,7 @@
             // 
             this.txtCarnet.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtCarnet.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCarnet.Location = new System.Drawing.Point(380, 109);
+            this.txtCarnet.Location = new System.Drawing.Point(379, 109);
             this.txtCarnet.Margin = new System.Windows.Forms.Padding(4);
             this.txtCarnet.Mask = "00000000";
             this.txtCarnet.Name = "txtCarnet";
@@ -331,7 +331,7 @@
             this.lblNie.AutoSize = true;
             this.lblNie.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblNie.ForeColor = System.Drawing.Color.Black;
-            this.lblNie.Location = new System.Drawing.Point(145, 164);
+            this.lblNie.Location = new System.Drawing.Point(144, 164);
             this.lblNie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblNie.Name = "lblNie";
             this.lblNie.Size = new System.Drawing.Size(86, 44);
@@ -344,7 +344,7 @@
             this.lblEspecialidad.AutoSize = true;
             this.lblEspecialidad.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEspecialidad.ForeColor = System.Drawing.Color.Black;
-            this.lblEspecialidad.Location = new System.Drawing.Point(58, 2);
+            this.lblEspecialidad.Location = new System.Drawing.Point(57, 2);
             this.lblEspecialidad.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblEspecialidad.Name = "lblEspecialidad";
             this.lblEspecialidad.Size = new System.Drawing.Size(260, 44);
@@ -357,7 +357,7 @@
             this.lblProyecto.AutoSize = true;
             this.lblProyecto.Font = new System.Drawing.Font("Century Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblProyecto.ForeColor = System.Drawing.Color.Black;
-            this.lblProyecto.Location = new System.Drawing.Point(94, 53);
+            this.lblProyecto.Location = new System.Drawing.Point(93, 53);
             this.lblProyecto.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblProyecto.Name = "lblProyecto";
             this.lblProyecto.Size = new System.Drawing.Size(188, 44);
@@ -383,7 +383,7 @@
             this.cbEspecialidad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbEspecialidad.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEspecialidad.FormattingEnabled = true;
-            this.cbEspecialidad.Location = new System.Drawing.Point(380, 9);
+            this.cbEspecialidad.Location = new System.Drawing.Point(379, 9);
             this.cbEspecialidad.Margin = new System.Windows.Forms.Padding(4);
             this.cbEspecialidad.Name = "cbEspecialidad";
             this.cbEspecialidad.Size = new System.Drawing.Size(204, 31);
@@ -395,7 +395,7 @@
             this.cbProyecto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbProyecto.Font = new System.Drawing.Font("Century Gothic", 14.25F);
             this.cbProyecto.FormattingEnabled = true;
-            this.cbProyecto.Location = new System.Drawing.Point(380, 56);
+            this.cbProyecto.Location = new System.Drawing.Point(379, 56);
             this.cbProyecto.Margin = new System.Windows.Forms.Padding(4);
             this.cbProyecto.Name = "cbProyecto";
             this.cbProyecto.Size = new System.Drawing.Size(204, 38);
@@ -407,12 +407,12 @@
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.Controls.Add(this.panel4, 0, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(1287, 4);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(1286, 4);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 32.35294F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(427, 218);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(428, 218);
             this.tableLayoutPanel7.TabIndex = 2;
             // 
             // panel4
@@ -424,7 +424,7 @@
             this.panel4.Location = new System.Drawing.Point(4, 4);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(419, 210);
+            this.panel4.Size = new System.Drawing.Size(420, 210);
             this.panel4.TabIndex = 2;
             // 
             // btnLimpiar

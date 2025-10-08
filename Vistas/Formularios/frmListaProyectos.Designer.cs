@@ -299,7 +299,7 @@
             this.tableLayoutPanel5.ColumnCount = 3;
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.19226F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.80774F));
-            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 611F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 612F));
             this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 671F));
             this.tableLayoutPanel5.Controls.Add(this.panel5, 1, 0);
             this.tableLayoutPanel5.Controls.Add(this.lblEstado, 0, 0);
@@ -318,7 +318,7 @@
             this.panel5.Controls.Add(this.rbnInactivo);
             this.panel5.Controls.Add(this.rbnActivo);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel5.Location = new System.Drawing.Point(310, 4);
+            this.panel5.Location = new System.Drawing.Point(309, 4);
             this.panel5.Margin = new System.Windows.Forms.Padding(4);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(348, 67);
@@ -359,7 +359,7 @@
             this.lblEstado.AutoSize = true;
             this.lblEstado.Font = new System.Drawing.Font("Century Gothic", 21.75F);
             this.lblEstado.ForeColor = System.Drawing.Color.Black;
-            this.lblEstado.Location = new System.Drawing.Point(79, 15);
+            this.lblEstado.Location = new System.Drawing.Point(78, 15);
             this.lblEstado.Name = "lblEstado";
             this.lblEstado.Size = new System.Drawing.Size(148, 44);
             this.lblEstado.TabIndex = 19;
@@ -373,13 +373,13 @@
             this.tableLayoutPanel7.Controls.Add(this.btnEliminarProyecto, 1, 0);
             this.tableLayoutPanel7.Controls.Add(this.btnLimpiar, 0, 0);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel7.Location = new System.Drawing.Point(666, 4);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(665, 4);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(4);
             this.tableLayoutPanel7.Name = "tableLayoutPanel7";
             this.tableLayoutPanel7.RowCount = 1;
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel7.Size = new System.Drawing.Size(604, 67);
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(605, 67);
             this.tableLayoutPanel7.TabIndex = 22;
             // 
             // btnEliminarProyecto
@@ -395,7 +395,7 @@
             this.btnEliminarProyecto.ForeColor = System.Drawing.Color.White;
             this.btnEliminarProyecto.Image = global::Vistas.Properties.Resources.eliminar;
             this.btnEliminarProyecto.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEliminarProyecto.Location = new System.Drawing.Point(356, 10);
+            this.btnEliminarProyecto.Location = new System.Drawing.Point(357, 10);
             this.btnEliminarProyecto.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarProyecto.Name = "btnEliminarProyecto";
             this.btnEliminarProyecto.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
@@ -418,7 +418,7 @@
             this.btnLimpiar.Font = new System.Drawing.Font("Century Gothic", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLimpiar.ForeColor = System.Drawing.Color.White;
             this.btnLimpiar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnLimpiar.Location = new System.Drawing.Point(52, 10);
+            this.btnLimpiar.Location = new System.Drawing.Point(53, 10);
             this.btnLimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
@@ -434,7 +434,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.12794F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.87206F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 323F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 290F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 291F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 320F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Controls.Add(this.btnAgregar, 2, 0);
@@ -462,7 +462,7 @@
             this.btnAgregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregar.Font = new System.Drawing.Font("Century Gothic", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(683, 19);
+            this.btnAgregar.Location = new System.Drawing.Point(682, 19);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(277, 58);
@@ -479,7 +479,7 @@
             this.txtNombreProyecto.MaxLength = 40;
             this.txtNombreProyecto.Multiline = true;
             this.txtNombreProyecto.Name = "txtNombreProyecto";
-            this.txtNombreProyecto.Size = new System.Drawing.Size(348, 38);
+            this.txtNombreProyecto.Size = new System.Drawing.Size(347, 38);
             this.txtNombreProyecto.TabIndex = 7;
             this.tlpAyuda.SetToolTip(this.txtNombreProyecto, "Ingrese caracteres numéricos");
             this.txtNombreProyecto.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNombreProyecto_KeyPress_1);
@@ -497,7 +497,7 @@
             this.btnEditar.ForeColor = System.Drawing.Color.White;
             this.btnEditar.Image = ((System.Drawing.Image)(resources.GetObject("btnEditar.Image")));
             this.btnEditar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btnEditar.Location = new System.Drawing.Point(1020, 23);
+            this.btnEditar.Location = new System.Drawing.Point(1019, 23);
             this.btnEditar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
@@ -794,7 +794,7 @@
             this.tableLayoutPanel4.ColumnCount = 3;
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.85619F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.14381F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 403F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 404F));
             this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 464F));
             this.tableLayoutPanel4.Controls.Add(this.dtpFechaBitacora, 2, 0);
             this.tableLayoutPanel4.Controls.Add(this.txtHoras, 0, 0);
@@ -1156,7 +1156,7 @@
             this.MaximizeBox = false;
             this.Name = "frmListaProyectos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "frmListaProyectos";
+            this.Text = "Lista de Proyectos";
             this.Load += new System.EventHandler(this.frmListaProyectos_Load);
             this.Resize += new System.EventHandler(this.frmListaProyectos_Resize);
             this.tpListadoProyectos.ResumeLayout(false);
